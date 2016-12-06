@@ -1,0 +1,151 @@
+[2016-11-06 23:48:30,849](WARNING)werkzeug :  * Debugger is active!
+[2016-11-06 23:48:30,869](INFO)werkzeug :  * Debugger pin code: 843-477-760
+[2016-11-06 23:49:05,198](INFO)werkzeug :  * Detected change in '/Users/martin/flask/script_tools/Connector.py', reloading
+[2016-11-06 23:49:05,583](WARNING)werkzeug :  * Debugger is active!
+[2016-11-06 23:49:05,610](INFO)werkzeug :  * Debugger pin code: 843-477-760
+[2016-11-06 23:49:06,657](INFO)werkzeug :  * Detected change in '/Users/martin/flask/script_tools/Connector.py', reloading
+[2016-11-06 23:49:07,138](WARNING)werkzeug :  * Debugger is active!
+[2016-11-06 23:49:07,156](INFO)werkzeug :  * Debugger pin code: 843-477-760
+[2016-11-06 23:49:14,499](INFO)werkzeug : 127.0.0.1 - - [06/Nov/2016 23:49:14] "GET / HTTP/1.1" 200 -
+[2016-11-06 23:49:14,677](INFO)werkzeug : 127.0.0.1 - - [06/Nov/2016 23:49:14] "GET /get_table_info HTTP/1.1" 200 -
+[2016-11-07 13:34:57,996](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:34:57] "POST /get_results HTTP/1.1" 404 -
+[2016-11-07 13:36:11,053](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET / HTTP/1.1" 200 -
+[2016-11-07 13:36:11,081](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /static/assets/css/main.css HTTP/1.1" 304 -
+[2016-11-07 13:36:11,083](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /static/img/avatar.jpeg HTTP/1.1" 304 -
+[2016-11-07 13:36:11,086](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+[2016-11-07 13:36:11,094](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /static/assets/js/jquery.scrolly.min.js HTTP/1.1" 304 -
+[2016-11-07 13:36:11,096](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /static/assets/js/skel.min.js HTTP/1.1" 304 -
+[2016-11-07 13:36:11,098](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /static/assets/js/jquery.scrollzer.min.js HTTP/1.1" 304 -
+[2016-11-07 13:36:11,102](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /static/assets/js/util.js HTTP/1.1" 304 -
+[2016-11-07 13:36:11,105](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /static/assets/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-11-07 13:36:11,108](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /static/assets/js/main.js HTTP/1.1" 304 -
+[2016-11-07 13:36:11,111](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /static/js/index.js HTTP/1.1" 304 -
+[2016-11-07 13:36:11,114](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /static/img/loading.gif HTTP/1.1" 304 -
+[2016-11-07 13:36:11,162](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /static/assets/css/images/overlay.png HTTP/1.1" 304 -
+[2016-11-07 13:36:11,164](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /static/assets/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 -
+[2016-11-07 13:36:11,241](INFO)werkzeug : 127.0.0.1 - - [07/Nov/2016 13:36:11] "GET /get_table_info HTTP/1.1" 200 -
+[2016-11-09 11:18:43,678](INFO)werkzeug :  * Restarting with stat
+[2016-11-09 11:18:43,930](WARNING)werkzeug :  * Debugger is active!
+[2016-11-09 11:18:43,930](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-09 11:18:43,946](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-09 11:18:45,790](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET / HTTP/1.1" 200 -
+[2016-11-09 11:18:45,892](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET /static/assets/css/main.css HTTP/1.1" 200 -
+[2016-11-09 11:18:45,894](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET /static/img/avatar.jpeg HTTP/1.1" 200 -
+[2016-11-09 11:18:45,897](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 -
+[2016-11-09 11:18:45,904](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET /static/assets/js/jquery.scrolly.min.js HTTP/1.1" 200 -
+[2016-11-09 11:18:45,923](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET /static/assets/css/font-awesome.min.css HTTP/1.1" 200 -
+[2016-11-09 11:18:45,926](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET /static/assets/js/jquery.scrollzer.min.js HTTP/1.1" 200 -
+[2016-11-09 11:18:45,927](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET /static/assets/js/util.js HTTP/1.1" 200 -
+[2016-11-09 11:18:45,928](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET /static/assets/js/skel.min.js HTTP/1.1" 200 -
+[2016-11-09 11:18:45,934](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET /static/assets/js/main.js HTTP/1.1" 200 -
+[2016-11-09 11:18:45,937](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET /static/js/index.js HTTP/1.1" 200 -
+[2016-11-09 11:18:45,946](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET /static/img/loading.gif HTTP/1.1" 200 -
+[2016-11-09 11:18:45,990](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET /static/assets/css/images/overlay.png HTTP/1.1" 200 -
+[2016-11-09 11:18:45,996](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:45] "GET /static/assets/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+[2016-11-09 11:18:46,183](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:46] "GET /get_table_info HTTP/1.1" 500 -
+[2016-11-09 11:18:46,221](INFO)werkzeug : 127.0.0.1 - - [09/Nov/2016 11:18:46] "GET /favicon.ico HTTP/1.1" 404 -
+[2016-11-09 11:23:28,108](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\DB.py', reloading
+[2016-11-09 11:23:28,203](INFO)werkzeug :  * Restarting with stat
+[2016-11-09 11:23:28,753](WARNING)werkzeug :  * Debugger is active!
+[2016-11-09 11:23:28,753](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-09 11:23:28,753](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-09 11:28:32,559](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-11-09 11:28:32,637](INFO)werkzeug :  * Restarting with stat
+[2016-11-09 11:28:32,934](WARNING)werkzeug :  * Debugger is active!
+[2016-11-09 11:28:32,934](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-09 11:28:32,934](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-09 11:30:00,286](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-11-09 11:30:00,302](INFO)werkzeug :  * Restarting with stat
+[2016-11-09 11:30:00,614](WARNING)werkzeug :  * Debugger is active!
+[2016-11-09 11:30:00,614](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-09 11:30:00,614](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-09 11:30:50,467](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-11-09 11:30:50,483](INFO)werkzeug :  * Restarting with stat
+[2016-11-09 11:30:50,779](WARNING)werkzeug :  * Debugger is active!
+[2016-11-09 11:30:50,779](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-09 11:30:50,779](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-09 11:34:10,931](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-11-09 11:34:10,993](INFO)werkzeug :  * Restarting with stat
+[2016-11-09 11:34:11,322](WARNING)werkzeug :  * Debugger is active!
+[2016-11-09 11:34:11,322](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-09 11:34:11,322](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-10 10:35:43,622](INFO)werkzeug :  * Restarting with stat
+[2016-11-10 10:35:43,976](WARNING)werkzeug :  * Debugger is active!
+[2016-11-10 10:35:43,977](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-10 10:35:43,980](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-10 10:35:45,790](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:45] "GET / HTTP/1.1" 200 -
+[2016-11-10 10:35:45,907](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:45] "GET /static/assets/css/main.css HTTP/1.1" 304 -
+[2016-11-10 10:35:45,930](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:45] "GET /static/img/avatar.jpeg HTTP/1.1" 304 -
+[2016-11-10 10:35:45,937](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:45] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+[2016-11-10 10:35:45,979](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:45] "GET /static/assets/js/jquery.scrolly.min.js HTTP/1.1" 304 -
+[2016-11-10 10:35:45,982](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:45] "GET /static/assets/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-11-10 10:35:45,983](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:45] "GET /static/assets/js/jquery.scrollzer.min.js HTTP/1.1" 304 -
+[2016-11-10 10:35:45,986](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:45] "GET /static/assets/js/skel.min.js HTTP/1.1" 304 -
+[2016-11-10 10:35:45,986](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:45] "GET /static/assets/js/util.js HTTP/1.1" 304 -
+[2016-11-10 10:35:46,043](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:46] "GET /static/assets/js/main.js HTTP/1.1" 304 -
+[2016-11-10 10:35:46,046](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:46] "GET /static/js/index.js HTTP/1.1" 304 -
+[2016-11-10 10:35:46,048](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:46] "GET /static/img/loading.gif HTTP/1.1" 304 -
+[2016-11-10 10:35:46,292](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:46] "GET /static/assets/css/images/overlay.png HTTP/1.1" 304 -
+[2016-11-10 10:35:46,332](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:46] "GET /static/assets/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 -
+[2016-11-10 10:35:46,582](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:46] "GET /get_table_info HTTP/1.1" 500 -
+[2016-11-10 10:35:46,660](INFO)werkzeug : 127.0.0.1 - - [10/Nov/2016 10:35:46] "GET /favicon.ico HTTP/1.1" 404 -
+[2016-11-10 10:45:22,151](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-11-10 10:45:22,190](INFO)werkzeug :  * Restarting with stat
+[2016-11-10 10:45:22,548](WARNING)werkzeug :  * Debugger is active!
+[2016-11-10 10:45:22,549](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-10 10:45:22,552](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-10 10:47:02,986](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-11-10 10:47:03,030](INFO)werkzeug :  * Restarting with stat
+[2016-11-10 10:47:03,388](WARNING)werkzeug :  * Debugger is active!
+[2016-11-10 10:47:03,391](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-10 10:47:03,394](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-10 10:58:58,520](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-11-10 10:58:58,548](INFO)werkzeug :  * Restarting with stat
+[2016-11-10 10:58:58,891](WARNING)werkzeug :  * Debugger is active!
+[2016-11-10 10:58:58,894](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-10 10:58:58,897](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-10 11:01:55,503](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-11-10 11:01:55,530](INFO)werkzeug :  * Restarting with stat
+[2016-11-10 11:01:55,868](WARNING)werkzeug :  * Debugger is active!
+[2016-11-10 11:01:55,869](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-10 11:01:55,872](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-10 11:02:57,884](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-11-10 11:02:57,914](INFO)werkzeug :  * Restarting with stat
+[2016-11-10 11:02:58,240](WARNING)werkzeug :  * Debugger is active!
+[2016-11-10 11:02:58,242](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-10 11:02:58,246](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-10 11:03:17,494](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-11-10 11:03:17,525](INFO)werkzeug :  * Restarting with stat
+[2016-11-10 11:03:17,940](WARNING)werkzeug :  * Debugger is active!
+[2016-11-10 11:03:17,941](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-10 11:03:17,944](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-10 11:06:11,365](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-11-10 11:06:11,415](INFO)werkzeug :  * Restarting with stat
+[2016-11-10 11:06:11,734](WARNING)werkzeug :  * Debugger is active!
+[2016-11-10 11:06:11,736](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-10 11:06:11,740](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-10 11:06:53,457](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-11-10 11:06:53,503](INFO)werkzeug :  * Restarting with stat
+[2016-11-11 13:37:26,338](INFO)werkzeug :  * Restarting with stat
+[2016-11-11 13:37:26,700](WARNING)werkzeug :  * Debugger is active!
+[2016-11-11 13:37:26,703](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-11-11 13:37:26,706](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-11-11 13:37:28,460](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET / HTTP/1.1" 200 -
+[2016-11-11 13:37:28,605](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /static/assets/css/main.css HTTP/1.1" 304 -
+[2016-11-11 13:37:28,607](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /static/img/avatar.jpeg HTTP/1.1" 304 -
+[2016-11-11 13:37:28,608](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /static/assets/js/jquery.min.js HTTP/1.1" 304 -
+[2016-11-11 13:37:28,654](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /static/assets/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-11-11 13:37:28,655](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /static/assets/js/jquery.scrolly.min.js HTTP/1.1" 304 -
+[2016-11-11 13:37:28,657](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /static/assets/js/jquery.scrollzer.min.js HTTP/1.1" 304 -
+[2016-11-11 13:37:28,658](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /static/assets/js/skel.min.js HTTP/1.1" 304 -
+[2016-11-11 13:37:28,661](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /static/assets/js/util.js HTTP/1.1" 304 -
+[2016-11-11 13:37:28,663](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /static/assets/js/main.js HTTP/1.1" 304 -
+[2016-11-11 13:37:28,698](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /static/js/index.js HTTP/1.1" 304 -
+[2016-11-11 13:37:28,700](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /static/img/loading.gif HTTP/1.1" 304 -
+[2016-11-11 13:37:28,730](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /static/assets/css/images/overlay.png HTTP/1.1" 304 -
+[2016-11-11 13:37:28,776](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /static/assets/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 -
+[2016-11-11 13:37:28,940](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /get_table_info HTTP/1.1" 200 -
+[2016-11-11 13:37:28,986](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:28] "GET /favicon.ico HTTP/1.1" 404 -
+[2016-11-11 13:37:36,905](INFO)scriptstool : env:Intranet,script_name:ABtest
+[2016-11-11 13:37:36,908](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-11-11 13:37:37,009](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:37] "POST /run_scrip HTTP/1.1" 500 -
