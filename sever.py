@@ -20,7 +20,7 @@ connector = Connector.Connctor()
 # welcome page
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('blank.html')
 
 
 @app.route("/run_scrip", methods=['POST'])
