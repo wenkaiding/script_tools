@@ -149,3 +149,997 @@
 [2016-11-11 13:37:36,905](INFO)scriptstool : env:Intranet,script_name:ABtest
 [2016-11-11 13:37:36,908](INFO)scriptstool : env_hosts type:<type 'unicode'>
 [2016-11-11 13:37:37,009](INFO)werkzeug : 127.0.0.1 - - [11/Nov/2016 13:37:37] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 13:23:11,444](INFO)werkzeug :  * Restarting with stat
+[2016-12-07 13:23:11,838](WARNING)werkzeug :  * Debugger is active!
+[2016-12-07 13:23:11,884](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-07 13:23:11,884](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-07 13:23:14,164](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:14] "GET / HTTP/1.1" 200 -
+[2016-12-07 13:23:14,368](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:14] "GET /static/assets/css/main.css HTTP/1.1" 200 -
+[2016-12-07 13:23:14,400](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:14] "GET /static/img/avatar.jpeg HTTP/1.1" 200 -
+[2016-12-07 13:23:14,427](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:14] "GET /static/assets/js/jquery.min.js HTTP/1.1" 200 -
+[2016-12-07 13:23:14,463](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:14] "GET /static/assets/css/font-awesome.min.css HTTP/1.1" 200 -
+[2016-12-07 13:23:14,476](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:14] "GET /static/assets/js/jquery.scrolly.min.js HTTP/1.1" 200 -
+[2016-12-07 13:23:14,479](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:14] "GET /static/assets/js/jquery.scrollzer.min.js HTTP/1.1" 200 -
+[2016-12-07 13:23:14,490](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:14] "GET /static/assets/js/skel.min.js HTTP/1.1" 200 -
+[2016-12-07 13:23:14,535](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:14] "GET /static/assets/js/util.js HTTP/1.1" 200 -
+[2016-12-07 13:23:14,565](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:14] "GET /static/assets/js/main.js HTTP/1.1" 200 -
+[2016-12-07 13:23:14,592](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:14] "GET /static/js/index.js HTTP/1.1" 200 -
+[2016-12-07 13:23:14,759](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:14] "GET /static/assets/css/images/overlay.png HTTP/1.1" 200 -
+[2016-12-07 13:23:14,772](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:14] "GET /static/assets/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 200 -
+[2016-12-07 13:23:15,131](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:15] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 13:23:15,239](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 13:23:15] "GET /favicon.ico HTTP/1.1" 404 -
+[2016-12-07 14:11:59,834](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:11:59] "GET / HTTP/1.1" 200 -
+[2016-12-07 14:12:00,094](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:00] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 14:12:06,321](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:06] "POST /get_results HTTP/1.1" 404 -
+[2016-12-07 14:12:07,523](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:07] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 14:12:07,526](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:07] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 14:12:08,461](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:08] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 14:12:08,463](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:08] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 14:12:08,805](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:08] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 14:12:08,812](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:08] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 14:12:09,006](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:09] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 14:12:09,006](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:09] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 14:12:09,200](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:09] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 14:12:09,210](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:09] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 14:12:09,423](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:09] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 14:12:09,424](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:09] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 14:12:10,066](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:10] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 14:12:10,069](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:10] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 14:12:11,855](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:11] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 14:12:11,859](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:11] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 14:12:12,240](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:12] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 14:12:12,249](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:12] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 14:12:12,548](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:12] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 14:12:12,549](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:12] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 14:12:12,895](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:12] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 14:12:12,897](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:12] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 14:12:24,157](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:12:24] "POST /get_results HTTP/1.1" 404 -
+[2016-12-07 14:32:47,819](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\sever.py', reloading
+[2016-12-07 14:32:47,914](INFO)werkzeug :  * Restarting with stat
+[2016-12-07 14:32:48,257](WARNING)werkzeug :  * Debugger is active!
+[2016-12-07 14:32:48,257](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-07 14:32:48,273](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-07 14:33:00,796](INFO)werkzeug :  * Restarting with stat
+[2016-12-07 14:33:01,140](WARNING)werkzeug :  * Debugger is active!
+[2016-12-07 14:33:01,140](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-07 14:33:01,140](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-07 14:33:02,667](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET / HTTP/1.1" 200 -
+[2016-12-07 14:33:02,809](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 200 -
+[2016-12-07 14:33:02,811](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 200 -
+[2016-12-07 14:33:02,815](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/css/ace.min.css HTTP/1.1" 200 -
+[2016-12-07 14:33:02,819](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 200 -
+[2016-12-07 14:33:02,822](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 200 -
+[2016-12-07 14:33:02,825](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 200 -
+[2016-12-07 14:33:02,878](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 200 -
+[2016-12-07 14:33:02,891](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/js/ace.min.js HTTP/1.1" 200 -
+[2016-12-07 14:33:02,891](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 200 -
+[2016-12-07 14:33:02,897](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 200 -
+[2016-12-07 14:33:02,898](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/avatars/avatar.png HTTP/1.1" 200 -
+[2016-12-07 14:33:02,901](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/avatars/avatar3.png HTTP/1.1" 200 -
+[2016-12-07 14:33:02,928](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 -
+[2016-12-07 14:33:02,931](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/avatars/avatar4.png HTTP/1.1" 200 -
+[2016-12-07 14:33:02,946](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:02] "GET /static/assets1/avatars/user.jpg HTTP/1.1" 200 -
+[2016-12-07 14:33:04,704](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:04] "GET /typography.html HTTP/1.1" 404 -
+[2016-12-07 14:33:08,990](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:08] "GET /elements.html HTTP/1.1" 404 -
+[2016-12-07 14:33:12,375](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:33:12] "GET /form-elements.html HTTP/1.1" 404 -
+[2016-12-07 14:36:17,680](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:36:17] "GET /typography.html HTTP/1.1" 404 -
+[2016-12-07 14:44:27,841](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:44:27] "GET / HTTP/1.1" 200 -
+[2016-12-07 14:50:51,005](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:50:51] "GET /typography.html HTTP/1.1" 404 -
+[2016-12-07 14:50:55,134](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:50:55] "GET /index.html HTTP/1.1" 404 -
+[2016-12-07 14:50:59,678](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:50:59] "GET /elements.html HTTP/1.1" 404 -
+[2016-12-07 14:51:05,599](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:51:05] "GET /index.html HTTP/1.1" 404 -
+[2016-12-07 14:54:47,226](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:54:47] "GET / HTTP/1.1" 200 -
+[2016-12-07 14:55:43,161](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:55:43] "GET /index.html HTTP/1.1" 404 -
+[2016-12-07 14:55:49,486](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:55:49] "GET /tables.html HTTP/1.1" 404 -
+[2016-12-07 14:55:53,072](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:55:53] "GET /calendar.html HTTP/1.1" 404 -
+[2016-12-07 14:57:01,983](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:57:01] "GET / HTTP/1.1" 200 -
+[2016-12-07 14:58:07,134](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:58:07] "GET /index.html HTTP/1.1" 404 -
+[2016-12-07 14:58:17,776](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:58:17] "GET /index.html HTTP/1.1" 404 -
+[2016-12-07 14:58:44,134](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:58:44] "GET / HTTP/1.1" 200 -
+[2016-12-07 14:58:47,539](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:58:47] "GET /index.html HTTP/1.1" 404 -
+[2016-12-07 14:59:12,216](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:59:12] "GET /index.html HTTP/1.1" 404 -
+[2016-12-07 14:59:14,604](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:59:14] "GET /index.html HTTP/1.1" 404 -
+[2016-12-07 14:59:15,196](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:59:15] "GET /index.html HTTP/1.1" 404 -
+[2016-12-07 14:59:16,752](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:59:16] "GET / HTTP/1.1" 200 -
+[2016-12-07 14:59:17,367](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:59:17] "GET / HTTP/1.1" 200 -
+[2016-12-07 14:59:17,546](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:59:17] "GET / HTTP/1.1" 200 -
+[2016-12-07 14:59:18,493](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 14:59:18] "GET /templates/index.html HTTP/1.1" 404 -
+[2016-12-07 15:24:56,029](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:24:56] "GET /templates/index.html HTTP/1.1" 404 -
+[2016-12-07 15:25:10,022](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:25:10] "GET /inbox.html HTTP/1.1" 404 -
+[2016-12-07 15:25:29,937](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:25:29] "GET /templates/index.html HTTP/1.1" 404 -
+[2016-12-07 15:29:14,118](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:29:14] "GET /templates/index.html HTTP/1.1" 404 -
+[2016-12-07 15:29:17,016](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:29:17] "GET / HTTP/1.1" 200 -
+[2016-12-07 15:29:24,650](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:29:24] "GET /templates/index.html HTTP/1.1" 404 -
+[2016-12-07 15:32:39,089](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:32:39] "GET / HTTP/1.1" 200 -
+[2016-12-07 15:32:40,039](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:32:40] "GET /static/phpscripts.html HTTP/1.1" 404 -
+[2016-12-07 15:32:54,792](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:32:54] "GET /static/phpscripts.html HTTP/1.1" 404 -
+[2016-12-07 15:33:09,003](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:33:09] "GET / HTTP/1.1" 200 -
+[2016-12-07 15:33:09,857](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:33:09] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 15:41:04,549](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 15:41:04,601](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/css/bootstrap.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:04,608](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/css/ace.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:04,611](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/css/font-awesome.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:04,630](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/js/ace-extra.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:04,631](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/css/ace-skins.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:04,658](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/css/ace-rtl.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:04,700](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/js/bootstrap.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:04,700](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:04,704](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/js/ace-elements.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:04,723](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/js/ace.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:04,743](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/avatars/avatar.png HTTP/1.1" 404 -
+[2016-12-07 15:41:04,749](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/avatars/avatar3.png HTTP/1.1" 404 -
+[2016-12-07 15:41:04,752](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/avatars/avatar4.png HTTP/1.1" 404 -
+[2016-12-07 15:41:04,769](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/avatars/user.jpg HTTP/1.1" 404 -
+[2016-12-07 15:41:04,775](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/js/ace-elements.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:04,799](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:04] "GET /static/html/static/assets1/js/ace.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:06,904](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:06] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-07 15:41:06,956](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:06] "GET /static/html/static/assets1/css/bootstrap.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:06,957](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:06] "GET /static/html/static/assets1/css/font-awesome.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:06,964](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:06] "GET /static/html/static/assets1/css/ace.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:06,980](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:06] "GET /static/html/static/assets1/css/ace-rtl.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:06,993](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:06] "GET /static/html/static/assets1/css/ace-skins.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:06,993](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:06] "GET /static/html/static/assets1/js/ace-extra.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:07,042](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:07] "GET /static/html/static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:07,048](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:07] "GET /static/html/static/assets1/js/bootstrap.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:07,058](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:07] "GET /static/html/static/assets1/js/ace-elements.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:07,069](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:07] "GET /static/html/static/assets1/avatars/avatar.png HTTP/1.1" 404 -
+[2016-12-07 15:41:07,075](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:07] "GET /static/html/static/assets1/avatars/avatar3.png HTTP/1.1" 404 -
+[2016-12-07 15:41:07,101](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:07] "GET /static/html/static/assets1/js/ace.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:07,115](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:07] "GET /static/html/static/assets1/avatars/avatar4.png HTTP/1.1" 404 -
+[2016-12-07 15:41:07,118](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:07] "GET /static/html/static/assets1/avatars/user.jpg HTTP/1.1" 404 -
+[2016-12-07 15:41:07,135](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:07] "GET /static/html/static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:07,170](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:07] "GET /static/html/static/assets1/js/ace-elements.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:07,194](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:07] "GET /static/html/static/assets1/js/ace.min.js HTTP/1.1" 404 -
+[2016-12-07 15:41:08,569](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:08] "GET /static/html/static/assets1/css/font-awesome.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:08,578](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:08] "GET /static/html/static/assets1/css/ace.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:08,581](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:08] "GET /static/html/static/assets1/css/bootstrap.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:08,595](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:08] "GET /static/html/static/assets1/css/ace-rtl.min.css HTTP/1.1" 404 -
+[2016-12-07 15:41:08,605](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:41:08] "GET /static/html/static/assets1/css/ace-skins.min.css HTTP/1.1" 404 -
+[2016-12-07 15:42:51,220](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 15:42:51,296](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 304 -
+[2016-12-07 15:42:51,302](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-12-07 15:42:51,309](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/css/ace.min.css HTTP/1.1" 304 -
+[2016-12-07 15:42:51,309](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 304 -
+[2016-12-07 15:42:51,315](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 304 -
+[2016-12-07 15:42:51,319](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 304 -
+[2016-12-07 15:42:51,664](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/avatars/avatar.png HTTP/1.1" 304 -
+[2016-12-07 15:42:51,665](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/avatars/avatar3.png HTTP/1.1" 304 -
+[2016-12-07 15:42:51,668](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 304 -
+[2016-12-07 15:42:51,671](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 304 -
+[2016-12-07 15:42:51,673](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 304 -
+[2016-12-07 15:42:51,676](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/js/ace.min.js HTTP/1.1" 304 -
+[2016-12-07 15:42:51,730](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/avatars/user.jpg HTTP/1.1" 304 -
+[2016-12-07 15:42:51,733](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:42:51] "GET /static/assets1/avatars/avatar4.png HTTP/1.1" 304 -
+[2016-12-07 15:51:51,654](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:51:51] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 15:54:18,704](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:18] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 15:54:18,762](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:18] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:18,763](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:18] "GET /static/assets/css/ace.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:18,763](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:18] "GET /static/assets/css/ace-rtl.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:18,765](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:18] "GET /static/assets/css/ace-skins.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:22,811](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:22] "GET /static/assets/js/ace-extra.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:22,828](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:22] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:22,904](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:22] "GET /static/assets/js/typeahead-bs2.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:22,923](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:22] "GET /static/assets/js/jquery.dataTables.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:22,944](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:22] "GET /static/assets/js/jquery.dataTables.bootstrap.js HTTP/1.1" 404 -
+[2016-12-07 15:54:22,963](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:22] "GET /static/assets/js/ace-elements.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:22,983](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:22] "GET /static/assets/js/ace.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:23,007](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:23] "GET /static/assets/avatars/avatar.png HTTP/1.1" 404 -
+[2016-12-07 15:54:23,026](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:23] "GET /static/assets/avatars/avatar4.png HTTP/1.1" 404 -
+[2016-12-07 15:54:23,038](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:23] "GET /static/assets/avatars/user.jpg HTTP/1.1" 404 -
+[2016-12-07 15:54:23,058](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:23] "GET /static/assets/avatars/avatar3.png HTTP/1.1" 404 -
+[2016-12-07 15:54:26,816](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:26] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-07 15:54:26,841](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:26] "GET /static/assets/css/ace.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:26,842](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:26] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:26,848](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:26] "GET /static/assets/css/ace-rtl.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:26,861](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:26] "GET /static/assets/css/ace-skins.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:26,872](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:26] "GET /static/assets/js/ace-extra.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:26,915](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:26] "GET /static/assets/avatars/avatar.png HTTP/1.1" 404 -
+[2016-12-07 15:54:26,930](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:26] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:26,941](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:26] "GET /static/assets/js/typeahead-bs2.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:26,971](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:26] "GET /static/assets/js/jquery.dataTables.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:26,984](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:26] "GET /static/assets/js/jquery.dataTables.bootstrap.js HTTP/1.1" 404 -
+[2016-12-07 15:54:27,005](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:27] "GET /static/assets/js/ace-elements.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:27,009](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:27] "GET /static/assets/avatars/avatar4.png HTTP/1.1" 404 -
+[2016-12-07 15:54:27,040](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:27] "GET /static/assets/avatars/user.jpg HTTP/1.1" 404 -
+[2016-12-07 15:54:27,042](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:27] "GET /static/assets/avatars/avatar3.png HTTP/1.1" 404 -
+[2016-12-07 15:54:27,065](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:27] "GET /static/assets/js/ace.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,171](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 15:54:28,269](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/css/font-awesome.min.css HTTP/1.1" 200 -
+[2016-12-07 15:54:28,298](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:28,299](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/css/ace.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:28,301](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/css/ace-rtl.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:28,302](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/css/ace-skins.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:28,303](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/js/ace-extra.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,516](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/js/jquery.dataTables.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,520](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,529](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/js/typeahead-bs2.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,540](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/js/jquery.dataTables.bootstrap.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,562](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/js/ace.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,584](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/js/ace-elements.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,605](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/avatars/avatar3.png HTTP/1.1" 404 -
+[2016-12-07 15:54:28,609](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/avatars/avatar.png HTTP/1.1" 404 -
+[2016-12-07 15:54:28,628](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/avatars/avatar4.png HTTP/1.1" 404 -
+[2016-12-07 15:54:28,631](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/avatars/user.jpg HTTP/1.1" 404 -
+[2016-12-07 15:54:28,677](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,713](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/js/typeahead-bs2.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,737](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/js/jquery.dataTables.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,765](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/js/jquery.dataTables.bootstrap.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,789](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/js/ace-elements.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,815](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /static/assets/js/ace.min.js HTTP/1.1" 404 -
+[2016-12-07 15:54:28,982](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:28] "GET /favicon.ico HTTP/1.1" 404 -
+[2016-12-07 15:54:30,698](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:30] "GET /static/assets/css/ace.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:30,713](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:30] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:30,723](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:30] "GET /static/assets/css/ace-rtl.min.css HTTP/1.1" 404 -
+[2016-12-07 15:54:30,727](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:54:30] "GET /static/assets/css/ace-skins.min.css HTTP/1.1" 404 -
+[2016-12-07 15:55:02,717](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:55:02] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 15:55:02,792](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:55:02] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+[2016-12-07 15:55:02,836](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:55:02] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 200 -
+[2016-12-07 15:56:48,674](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:56:48] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 15:59:29,552](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 15:59:29,608](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-12-07 15:59:29,634](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 304 -
+[2016-12-07 15:59:29,638](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 304 -
+[2016-12-07 15:59:29,644](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 304 -
+[2016-12-07 15:59:29,647](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/css/ace.min.css HTTP/1.1" 304 -
+[2016-12-07 15:59:29,667](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 304 -
+[2016-12-07 15:59:29,921](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 304 -
+[2016-12-07 15:59:29,926](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 304 -
+[2016-12-07 15:59:29,927](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 304 -
+[2016-12-07 15:59:29,953](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 304 -
+[2016-12-07 15:59:29,956](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/js/ace.min.js HTTP/1.1" 304 -
+[2016-12-07 15:59:29,976](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 304 -
+[2016-12-07 15:59:29,983](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/avatars/avatar3.png HTTP/1.1" 304 -
+[2016-12-07 15:59:29,984](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:29] "GET /static/assets1/avatars/avatar.png HTTP/1.1" 304 -
+[2016-12-07 15:59:30,016](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:30] "GET /static/assets1/avatars/user.jpg HTTP/1.1" 304 -
+[2016-12-07 15:59:30,020](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:30] "GET /static/assets1/avatars/avatar4.png HTTP/1.1" 304 -
+[2016-12-07 15:59:46,085](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 15:59:46,128](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 304 -
+[2016-12-07 15:59:46,200](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/css/ace.min.css HTTP/1.1" 304 -
+[2016-12-07 15:59:46,201](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 304 -
+[2016-12-07 15:59:46,203](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 304 -
+[2016-12-07 15:59:46,206](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-12-07 15:59:46,233](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 304 -
+[2016-12-07 15:59:46,407](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 304 -
+[2016-12-07 15:59:46,428](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 304 -
+[2016-12-07 15:59:46,457](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 304 -
+[2016-12-07 15:59:46,460](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 304 -
+[2016-12-07 15:59:46,482](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/js/ace.min.js HTTP/1.1" 304 -
+[2016-12-07 15:59:46,490](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/avatars/user.jpg HTTP/1.1" 304 -
+[2016-12-07 15:59:46,526](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/avatars/avatar4.png HTTP/1.1" 304 -
+[2016-12-07 15:59:46,532](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/avatars/avatar3.png HTTP/1.1" 304 -
+[2016-12-07 15:59:46,540](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 304 -
+[2016-12-07 15:59:46,595](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 15:59:46] "GET /static/assets1/avatars/avatar.png HTTP/1.1" 304 -
+[2016-12-07 16:00:17,345](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:00:17,404](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 304 -
+[2016-12-07 16:00:17,410](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-12-07 16:00:17,426](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/css/ace.min.css HTTP/1.1" 304 -
+[2016-12-07 16:00:17,444](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 304 -
+[2016-12-07 16:00:17,463](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 304 -
+[2016-12-07 16:00:17,467](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 304 -
+[2016-12-07 16:00:17,607](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 304 -
+[2016-12-07 16:00:17,609](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 304 -
+[2016-12-07 16:00:17,612](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 304 -
+[2016-12-07 16:00:17,619](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 304 -
+[2016-12-07 16:00:17,627](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/js/ace.min.js HTTP/1.1" 304 -
+[2016-12-07 16:00:17,674](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/avatars/user.jpg HTTP/1.1" 304 -
+[2016-12-07 16:00:17,677](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/avatars/avatar3.png HTTP/1.1" 304 -
+[2016-12-07 16:00:17,678](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/avatars/avatar4.png HTTP/1.1" 304 -
+[2016-12-07 16:00:17,713](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/avatars/avatar.png HTTP/1.1" 304 -
+[2016-12-07 16:00:17,717](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:00:17] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 304 -
+[2016-12-07 16:01:30,914](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:30] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:01:30,984](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:30] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 304 -
+[2016-12-07 16:01:30,990](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:30] "GET /static/assets1/css/ace.min.css HTTP/1.1" 304 -
+[2016-12-07 16:01:30,994](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:30] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-12-07 16:01:31,010](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:31] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 304 -
+[2016-12-07 16:01:31,013](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:31] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 304 -
+[2016-12-07 16:01:31,025](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:31] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 304 -
+[2016-12-07 16:01:31,144](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:31] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 304 -
+[2016-12-07 16:01:31,168](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:31] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 304 -
+[2016-12-07 16:01:31,171](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:31] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 304 -
+[2016-12-07 16:01:31,186](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:31] "GET /static/assets1/js/ace.min.js HTTP/1.1" 304 -
+[2016-12-07 16:01:31,249](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:31] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 304 -
+[2016-12-07 16:01:31,253](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:31] "GET /static/assets1/avatars/avatar3.png HTTP/1.1" 304 -
+[2016-12-07 16:01:31,255](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:31] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 304 -
+[2016-12-07 16:01:31,256](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:31] "GET /static/assets1/avatars/avatar4.png HTTP/1.1" 304 -
+[2016-12-07 16:01:31,259](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:31] "GET /static/assets1/avatars/avatar.png HTTP/1.1" 304 -
+[2016-12-07 16:01:31,260](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:31] "GET /static/assets1/avatars/user.jpg HTTP/1.1" 304 -
+[2016-12-07 16:01:55,992](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:55] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:01:56,046](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 304 -
+[2016-12-07 16:01:56,061](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-12-07 16:01:56,078](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 304 -
+[2016-12-07 16:01:56,082](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 304 -
+[2016-12-07 16:01:56,091](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/css/ace.min.css HTTP/1.1" 304 -
+[2016-12-07 16:01:56,105](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 304 -
+[2016-12-07 16:01:56,270](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 304 -
+[2016-12-07 16:01:56,272](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 304 -
+[2016-12-07 16:01:56,273](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 304 -
+[2016-12-07 16:01:56,276](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 304 -
+[2016-12-07 16:01:56,278](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/js/ace.min.js HTTP/1.1" 304 -
+[2016-12-07 16:01:56,282](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 304 -
+[2016-12-07 16:01:56,318](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/avatars/avatar3.png HTTP/1.1" 304 -
+[2016-12-07 16:01:56,322](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/avatars/avatar4.png HTTP/1.1" 304 -
+[2016-12-07 16:01:56,332](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/avatars/avatar.png HTTP/1.1" 304 -
+[2016-12-07 16:01:56,355](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:01:56] "GET /static/assets1/avatars/user.jpg HTTP/1.1" 304 -
+[2016-12-07 16:04:40,476](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:04:40] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:10:27,161](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:10:27] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:11:08,184](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:11:08] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:12:35,740](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:12:35] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:13:16,196](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:13:16] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:14:54,802](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:14:54] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-07 16:25:06,637](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:25:06] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-07 16:26:34,885](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:26:34] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:26:46,700](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:26:46] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:28:01,006](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:28:01] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:28:40,516](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:28:40] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:29:08,392](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:29:08] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:30:07,812](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:30:07] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:30:33,575](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:30:33] "GET /static/html/index.html HTTP/1.1" 404 -
+[2016-12-07 16:42:12,711](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:42:12] "GET /static/html/index.html HTTP/1.1" 404 -
+[2016-12-07 16:44:08,532](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:44:08] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:44:50,937](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:44:50] "GET /static/html/index.html HTTP/1.1" 404 -
+[2016-12-07 16:52:35,611](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:52:35] "GET / HTTP/1.1" 200 -
+[2016-12-07 16:52:39,269](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:52:39] "GET /static/html/index.html HTTP/1.1" 404 -
+[2016-12-07 16:53:33,792](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:53:33] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:55:28,253](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:55:28] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 16:59:42,006](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 16:59:42] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 17:06:44,084](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:06:44] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 17:07:16,513](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:07:16] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 17:07:24,187](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:07:24] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 17:07:26,868](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:07:26] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-07 17:08:01,611](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:08:01] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 17:08:30,065](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:08:30] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 17:08:37,125](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:08:37] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 17:08:43,862](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:08:43] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 17:16:14,114](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:16:14] "GET / HTTP/1.1" 200 -
+[2016-12-07 17:36:12,815](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:36:12] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 17:36:13,589](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:36:13] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 17:36:14,553](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:36:14] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 17:36:15,345](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:36:15] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 17:36:27,720](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:36:27] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-07 17:36:27,992](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:36:27] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 17:37:21,355](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:37:21] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 17:38:41,013](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 17:38:41,076](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 304 -
+[2016-12-07 17:38:41,105](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-12-07 17:38:41,107](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/assets1/css/ace.min.css HTTP/1.1" 304 -
+[2016-12-07 17:38:41,108](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 304 -
+[2016-12-07 17:38:41,128](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 304 -
+[2016-12-07 17:38:41,134](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 304 -
+[2016-12-07 17:38:41,157](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 304 -
+[2016-12-07 17:38:41,160](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 304 -
+[2016-12-07 17:38:41,163](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 304 -
+[2016-12-07 17:38:41,164](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 304 -
+[2016-12-07 17:38:41,167](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/js/index.js HTTP/1.1" 304 -
+[2016-12-07 17:38:41,187](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/assets1/js/ace.min.js HTTP/1.1" 304 -
+[2016-12-07 17:38:41,188](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 304 -
+[2016-12-07 17:38:41,630](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:38:41] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 17:39:01,489](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-07 17:39:01,529](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:01,555](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/js/index.js HTTP/1.1" 304 -
+[2016-12-07 17:39:01,556](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:01,561](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:01,565](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/assets1/css/ace.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:01,582](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:01,594](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:01,595](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:01,601](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:01,608](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:01,611](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 304 -
+[2016-12-07 17:39:01,624](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/assets1/js/ace.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:01,631](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:01,984](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:01] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 17:39:13,278](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-07 17:39:13,318](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:13,329](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:13,342](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:13,345](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:13,348](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/js/index.js HTTP/1.1" 304 -
+[2016-12-07 17:39:13,355](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/assets1/css/ace.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:13,384](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:13,385](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:13,387](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:13,388](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 304 -
+[2016-12-07 17:39:13,392](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:13,397](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:13,423](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /static/assets1/js/ace.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:13,694](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:13] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 17:39:48,535](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-07 17:39:48,595](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:48,595](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:48,598](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:48,599](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/assets1/css/ace.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:48,602](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 304 -
+[2016-12-07 17:39:48,644](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:48,671](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:48,686](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/js/index.js HTTP/1.1" 304 -
+[2016-12-07 17:39:48,687](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:48,701](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:48,703](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 304 -
+[2016-12-07 17:39:48,716](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/assets1/js/ace.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:48,720](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:48] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 304 -
+[2016-12-07 17:39:49,036](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:39:49] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 17:42:31,216](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:31] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 17:42:31,648](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:31] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 17:42:52,671](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:52] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:42:52,671](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:52] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:42:53,473](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:53] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:42:53,473](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:53] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:42:54,104](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:54] "POST /get_results HTTP/1.1" 404 -
+[2016-12-07 17:42:55,055](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:55] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:42:55,056](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:55] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:42:55,588](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:55] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:42:55,588](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:55] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:42:56,290](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:56] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:42:56,290](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:56] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:42:57,315](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:57] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:42:57,326](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:57] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:42:58,122](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:58] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:42:58,122](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:58] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:42:58,332](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:58] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:42:58,335](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:58] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:42:58,539](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:58] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:42:58,539](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:58] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:42:59,790](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:59] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:42:59,799](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:59] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:42:59,993](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:59] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:42:59,993](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:42:59] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:43:00,196](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:43:00] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:43:00,201](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:43:00] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:47:15,381](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:47:15] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 17:47:15,585](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:47:15] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 17:48:55,348](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:48:55] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:48:55,349](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:48:55] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:48:55,963](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:48:55] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:48:55,963](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:48:55] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:48:56,595](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:48:56] "POST /get_results HTTP/1.1" 404 -
+[2016-12-07 17:49:57,049](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:57] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:49:57,075](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:57] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:49:57,283](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:57] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:49:57,283](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:57] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:49:57,483](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:57] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:49:57,483](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:57] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:49:57,713](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:57] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:49:57,713](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:57] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:49:57,868](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:57] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:49:57,874](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:57] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:49:58,028](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:58] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:49:58,029](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:58] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:49:58,315](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:58] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:49:58,315](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:58] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:49:59,615](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:59] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:49:59,617](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:59] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:49:59,782](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:59] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:49:59,782](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:59] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:49:59,967](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:59] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-07 17:49:59,967](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:49:59] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-07 17:50:00,566](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:50:00] "POST /get_results HTTP/1.1" 404 -
+[2016-12-07 17:50:00,755](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 17:50:00] "POST /get_results HTTP/1.1" 404 -
+[2016-12-07 18:03:19,239](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 18:03:19] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 18:03:19,589](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 18:03:19] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 18:04:30,914](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 18:04:30] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 18:04:31,118](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 18:04:31] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 18:04:31,250](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 18:04:31] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-07 18:04:31,364](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 18:04:31] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 18:04:56,081](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 18:04:56] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 18:04:56,243](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 18:04:56] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-07 18:05:11,062](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 18:05:11] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-07 18:05:11,236](INFO)werkzeug : 127.0.0.1 - - [07/Dec/2016 18:05:11] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 09:33:06,151](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 09:33:06,467](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 09:33:06,497](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 09:33:06,513](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 09:33:07,918](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:07] "GET / HTTP/1.1" 200 -
+[2016-12-08 09:33:08,048](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 304 -
+[2016-12-08 09:33:08,049](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-12-08 09:33:08,051](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/css/ace.min.css HTTP/1.1" 304 -
+[2016-12-08 09:33:08,069](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 304 -
+[2016-12-08 09:33:08,069](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 304 -
+[2016-12-08 09:33:08,075](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 304 -
+[2016-12-08 09:33:08,115](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 304 -
+[2016-12-08 09:33:08,131](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 304 -
+[2016-12-08 09:33:08,160](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 304 -
+[2016-12-08 09:33:08,161](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/js/ace.min.js HTTP/1.1" 304 -
+[2016-12-08 09:33:08,180](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/avatars/avatar.png HTTP/1.1" 304 -
+[2016-12-08 09:33:08,184](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/avatars/avatar3.png HTTP/1.1" 304 -
+[2016-12-08 09:33:08,196](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/avatars/avatar4.png HTTP/1.1" 304 -
+[2016-12-08 09:33:08,198](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/avatars/user.jpg HTTP/1.1" 304 -
+[2016-12-08 09:33:08,210](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:08] "GET /static/assets1/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 -
+[2016-12-08 09:33:10,447](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:10] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 09:33:10,480](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:10] "GET /static/js/index.js HTTP/1.1" 304 -
+[2016-12-08 09:33:10,486](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:10] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 304 -
+[2016-12-08 09:33:10,496](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:10] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 304 -
+[2016-12-08 09:33:10,612](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:10] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 09:33:14,342](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 09:33:14] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 10:32:26,263](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:32:26] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-08 10:32:26,332](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:32:26] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-12-08 10:32:29,355](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:32:29] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 10:35:09,917](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-12-08 10:35:09,979](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 10:40:02,642](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 10:40:02,986](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 10:40:02,986](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 10:40:02,986](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 10:40:04,157](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:40:04] "GET / HTTP/1.1" 200 -
+[2016-12-08 10:40:08,934](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:40:08] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-08 10:40:09,141](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:40:09] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 10:40:26,354](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-12-08 10:40:26,385](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 10:40:26,778](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 10:40:26,778](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 10:40:26,778](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 10:40:27,799](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:40:27] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 10:40:27,973](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:40:27] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 10:42:12,755](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:42:12] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 10:42:12,918](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:42:12] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 10:43:54,598](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:43:54] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 10:43:54,676](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:43:54] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 10:43:55,987](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:43:55] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 10:43:55,989](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:43:55] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 10:43:56,305](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:43:56] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 10:43:56,309](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:43:56] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 10:43:56,510](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:43:56] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 10:43:56,510](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:43:56] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 10:43:56,717](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:43:56] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 10:43:56,720](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:43:56] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 10:43:57,010](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:43:57] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 10:43:57,010](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:43:57] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 10:44:22,552](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:44:22] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 10:44:22,563](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:44:22] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 10:46:59,802](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-12-08 10:46:59,836](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 10:48:22,345](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 10:48:22,691](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 10:48:22,691](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 10:48:22,707](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 10:48:24,451](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:48:24] "GET / HTTP/1.1" 200 -
+[2016-12-08 10:48:29,457](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:48:29] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 10:48:33,198](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:48:33] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 10:48:33,210](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:48:33] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 10:48:43,657](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:48:43] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 10:48:43,657](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:48:43] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 10:49:32,730](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\DAO.py', reloading
+[2016-12-08 10:49:32,776](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 10:49:35,079](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 10:49:35,426](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 10:49:35,426](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 10:49:35,426](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 10:49:40,381](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:49:40] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 10:56:35,885](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 10:56:36,246](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 10:56:36,246](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 10:56:36,246](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 10:56:37,822](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:56:37] "GET / HTTP/1.1" 200 -
+[2016-12-08 10:56:40,125](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:56:40] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 10:56:44,454](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 10:57:27,933](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 10:57:28,323](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 10:57:28,323](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 10:57:28,323](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 10:57:37,591](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:57:37] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-08 10:57:37,772](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 10:57:37] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 14:34:41,299](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:34:41] "GET / HTTP/1.1" 200 -
+[2016-12-08 14:34:43,023](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:34:43] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 14:34:46,796](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 14:34:46,799](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 14:34:46,894](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:34:46] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 14:34:46,926](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:34:46] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 14:34:56,532](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 14:34:56,533](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 14:34:56,545](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:34:56] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 14:34:56,548](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:34:56] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 14:35:05,079](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 14:35:05,533](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 14:35:05,536](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 14:35:05,586](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 14:35:07,630](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:35:07] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 14:35:07,799](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:35:07] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 14:35:09,516](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 14:35:09,519](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 14:35:09,532](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:35:09] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 14:35:09,542](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:35:09] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 14:35:34,207](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 14:35:34,209](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 14:35:34,223](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:35:34] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 14:35:34,224](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:35:34] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 14:36:40,556](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:36:40] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-08 14:36:40,766](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:36:40] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 14:36:50,528](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:36:50] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 14:36:50,648](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:36:50] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 14:37:44,240](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:37:44] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 14:37:44,387](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:37:44] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 14:37:45,444](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:37:45] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 14:37:45,582](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:37:45] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 14:37:45,749](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:37:45] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 14:37:45,854](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:37:45] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 14:37:45,969](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:37:45] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 14:37:46,107](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:37:46] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 14:37:46,158](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:37:46] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 14:37:46,292](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:37:46] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 14:39:14,609](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:39:14] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-08 14:39:14,786](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:39:14] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 14:40:09,355](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:40:09] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-08 14:40:09,522](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 14:40:09] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 15:23:36,882](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:23:36] "GET / HTTP/1.1" 200 -
+[2016-12-08 15:23:39,586](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:23:39] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 15:24:05,555](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-08 15:24:05,602](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 200 -
+[2016-12-08 15:24:05,608](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 200 -
+[2016-12-08 15:24:05,624](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 200 -
+[2016-12-08 15:24:05,632](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 200 -
+[2016-12-08 15:24:05,642](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/assets1/css/ace.min.css HTTP/1.1" 200 -
+[2016-12-08 15:24:05,673](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/js/index.js HTTP/1.1" 200 -
+[2016-12-08 15:24:05,680](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 200 -
+[2016-12-08 15:24:05,693](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 200 -
+[2016-12-08 15:24:05,700](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 200 -
+[2016-12-08 15:24:05,730](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+[2016-12-08 15:24:05,733](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 200 -
+[2016-12-08 15:24:05,740](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 200 -
+[2016-12-08 15:24:05,750](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/assets1/js/ace.min.js HTTP/1.1" 200 -
+[2016-12-08 15:24:05,857](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:05] "GET /static/assets1/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 -
+[2016-12-08 15:24:06,009](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:06] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 15:24:06,141](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:06] "GET /favicon.ico HTTP/1.1" 404 -
+[2016-12-08 15:24:14,713](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 15:24:14,713](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 15:24:14,721](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:14] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 15:24:14,724](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:14] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 15:24:17,862](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 15:24:17,864](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 15:24:17,871](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:17] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 15:24:17,872](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:17] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 15:24:42,292](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:42] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 15:24:44,476](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:44] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-08 15:24:44,588](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:44] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 15:24:59,085](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 15:24:59] "POST /get_results HTTP/1.1" 404 -
+[2016-12-08 17:24:00,461](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:24:00] "GET / HTTP/1.1" 200 -
+[2016-12-08 17:24:01,770](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:24:01] "GET /favicon.ico HTTP/1.1" 404 -
+[2016-12-08 17:24:04,328](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:24:04] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:24:09,450](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 17:24:09,451](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 17:24:09,460](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:24:09] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:24:09,463](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:24:09] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:24:11,334](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:24:11] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:24:11,335](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 17:24:11,336](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 17:24:11,348](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:24:11] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:24:12,178](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 17:24:12,178](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 17:24:12,180](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:24:12] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:24:12,180](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:24:12] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:24:12,726](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:24:12] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:24:12,727](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 17:24:12,730](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 17:24:12,737](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:24:12] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:24:24,844](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 17:24:24,845](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 17:24:24,880](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:24:24] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:24:24,880](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:24:24] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:25:37,278](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:25:37] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:25:37,278](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 17:25:37,278](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 17:25:37,286](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:25:37] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:26:22,016](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\sever.py', reloading
+[2016-12-08 17:26:22,154](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 17:26:22,624](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 17:26:22,624](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 17:26:22,624](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 17:26:25,799](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\sever.py', reloading
+[2016-12-08 17:26:25,829](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 17:26:26,206](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 17:26:26,207](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 17:26:26,211](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 17:26:28,194](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:26:28] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:26:28,197](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 17:26:28,203](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 17:26:28,227](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:26:28] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:29:53,676](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:29:53] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 17:29:54,058](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:29:54] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:29:54,375](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:29:54] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 17:29:54,851](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:29:54] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:29:55,220](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:29:55] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 17:29:55,779](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:29:55] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:30:47,450](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 17:30:47,798](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 17:30:47,798](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 17:30:47,798](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 17:30:49,440](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:30:49] "GET / HTTP/1.1" 200 -
+[2016-12-08 17:30:52,052](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:30:52] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:31:02,217](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 17:31:02,219](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 17:31:02,230](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:31:02] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:31:02,240](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:31:02] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:31:28,650](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:31:28] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 17:31:29,062](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:31:29] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:31:42,075](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:31:42] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 17:31:42,459](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:31:42] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:32:27,611](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:32:27] "GET / HTTP/1.1" 200 -
+[2016-12-08 17:32:28,308](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:32:28] "GET /favicon.ico HTTP/1.1" 404 -
+[2016-12-08 17:32:30,072](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:32:30] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:32:52,440](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:32:52] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 17:32:52,780](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:32:52] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:33:39,421](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 17:33:39,789](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 17:33:39,789](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 17:33:39,789](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 17:33:43,348](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:33:43] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 17:33:43,727](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:33:43] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:34:01,657](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:01] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 17:34:02,035](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:02] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:34:14,867](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:14] "GET / HTTP/1.1" 200 -
+[2016-12-08 17:34:14,868](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:14] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 200 -
+[2016-12-08 17:34:14,868](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:14] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 200 -
+[2016-12-08 17:34:15,086](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:15] "GET /static/assets1/css/ace.min.css HTTP/1.1" 200 -
+[2016-12-08 17:34:15,102](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:15] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 200 -
+[2016-12-08 17:34:15,118](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:15] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 200 -
+[2016-12-08 17:34:15,119](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:15] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 200 -
+[2016-12-08 17:34:15,148](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:15] "GET /static/assets1/avatars/avatar4.png HTTP/1.1" 200 -
+[2016-12-08 17:34:15,155](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:15] "GET /static/assets1/avatars/avatar.png HTTP/1.1" 200 -
+[2016-12-08 17:34:15,157](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:15] "GET /static/assets1/avatars/avatar3.png HTTP/1.1" 200 -
+[2016-12-08 17:34:15,161](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:15] "GET /static/assets1/avatars/user.jpg HTTP/1.1" 200 -
+[2016-12-08 17:34:15,193](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:15] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 200 -
+[2016-12-08 17:34:15,193](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:15] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 200 -
+[2016-12-08 17:34:15,193](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:15] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 200 -
+[2016-12-08 17:34:15,193](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:15] "GET /static/assets1/js/ace.min.js HTTP/1.1" 200 -
+[2016-12-08 17:34:15,471](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:15] "GET /static/assets1/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 -
+[2016-12-08 17:34:31,246](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:31] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
+[2016-12-08 17:34:31,280](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:31] "GET /static/js/index.js HTTP/1.1" 200 -
+[2016-12-08 17:34:31,286](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:31] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 200 -
+[2016-12-08 17:34:31,296](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:31] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 200 -
+[2016-12-08 17:34:31,538](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:31] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:34:39,494](INFO)scriptstool : start to run script: script_name is ABtest, env is Outside
+[2016-12-08 17:34:39,539](INFO)scriptstool : env:fp12,script_name:ABtest
+[2016-12-08 17:34:39,555](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:39] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:34:39,556](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:34:39] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:36:27,657](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 17:36:27,658](INFO)scriptstool : env:fp12,script_name:ABtest
+[2016-12-08 17:36:27,690](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:36:27] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:36:27,690](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:36:27] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:37:07,690](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\DAO.py', reloading
+[2016-12-08 17:37:07,707](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 17:37:08,160](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 17:37:08,160](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 17:37:08,160](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 17:37:09,446](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:37:09] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:37:09,447](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 17:37:09,453](INFO)scriptstool : env:fp12,script_name:ABtest
+[2016-12-08 17:37:09,467](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:37:09] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:37:27,398](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 17:37:27,398](INFO)scriptstool : env:fp12,script_name:ABtest
+[2016-12-08 17:37:27,400](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:37:27] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:37:27,400](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:37:27] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:37:50,881](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\DAO.py', reloading
+[2016-12-08 17:37:50,928](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 17:37:51,349](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 17:37:51,349](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 17:37:51,349](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 17:38:23,490](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\DAO.py', reloading
+[2016-12-08 17:38:23,552](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 17:38:24,365](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 17:38:24,367](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 17:38:24,375](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 17:38:28,891](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 17:38:28,897](INFO)scriptstool : env:fp12,script_name:ABtest
+[2016-12-08 17:38:28,905](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:38:28] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:38:28,915](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:38:28] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:38:51,072](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:38:51] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:38:51,075](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 17:38:51,076](INFO)scriptstool : env:fp12,script_name:ABtest
+[2016-12-08 17:38:51,088](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:38:51] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:40:56,997](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 17:40:57,000](INFO)scriptstool : env:fp12,script_name:ABtest
+[2016-12-08 17:40:57,013](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:40:57] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:40:58,438](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:40:58] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:46:25,121](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 17:46:25,124](INFO)scriptstool : env:fp12,script_name:ABtest
+[2016-12-08 17:46:25,134](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:46:25] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:46:33,302](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:46:33] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:53:34,296](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-12-08 17:53:34,394](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 17:53:34,849](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 17:53:34,849](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 17:53:34,849](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 17:53:37,013](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:53:37] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 17:53:37,460](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:53:37] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:53:43,497](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 17:53:43,499](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 17:53:43,509](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:53:43] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:53:43,519](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:53:43] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:53:44,648](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 17:53:44,648](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 17:53:44,661](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:53:44] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:53:44,663](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:53:44] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:53:54,305](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 17:53:54,308](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 17:53:54,318](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:53:54] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:53:54,319](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:53:54] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:54:22,732](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:54:22] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:54:22,733](INFO)scriptstool : start to run script: script_name is None, env is None
+[2016-12-08 17:54:22,733](INFO)scriptstool : env:None,script_name:None
+[2016-12-08 17:54:22,742](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:54:22] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:54:51,696](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 17:54:51,697](INFO)scriptstool : env:Intranet,script_name:ABtest
+[2016-12-08 17:54:51,698](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 17:54:51,990](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:54:51] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:54:53,344](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:54:53] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:55:05,706](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 17:55:05,707](INFO)scriptstool : env:Intranet,script_name:ABtest
+[2016-12-08 17:55:05,710](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 17:55:05,773](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:55:05] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:55:06,618](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:55:06] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:55:30,697](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 17:55:30,697](INFO)scriptstool : env:Intranet,script_name:ABtest
+[2016-12-08 17:55:30,700](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 17:55:30,795](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:55:30] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 17:55:31,161](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:55:31] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:56:15,890](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-12-08 17:56:15,917](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 17:56:16,453](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 17:56:16,456](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 17:56:16,459](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 17:57:07,176](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:57:07] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:57:07,686](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:57:07] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 17:57:55,709](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:57:55] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 17:57:55,710](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 17:57:55,713](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 17:57:55,714](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 17:57:55,752](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 17:57:55] "POST /run_scrip HTTP/1.1" 500 -
+[2016-12-08 18:00:33,723](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\sever.py', reloading
+[2016-12-08 18:00:33,770](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:00:34,316](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:00:34,322](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:00:34,405](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:00:38,562](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:00:38] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 18:00:38,575](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:00:38,581](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:00:38,584](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 18:00:38,604](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:00:38] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:00:49,575](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:00:49] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 18:00:49,578](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:00:49,579](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:00:49,582](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 18:00:49,598](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:00:49] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:01:16,494](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:01:16] "GET /run_scrip HTTP/1.1" 405 -
+[2016-12-08 18:01:22,776](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:01:22] "GET /get_script_status HTTP/1.1" 404 -
+[2016-12-08 18:02:53,933](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:02:53,934](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:02:53,937](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 18:02:53,961](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:02:53] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:02:54,812](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:02:54] "POST /get_script_status HTTP/1.1" 404 -
+[2016-12-08 18:03:16,490](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\sever.py', reloading
+[2016-12-08 18:03:16,528](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:03:17,073](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:03:17,073](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:03:17,073](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:03:22,104](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:03:22,104](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:03:22,104](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 18:03:22,128](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:03:22] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:03:22,654](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:03:22] "POST /get_script_status HTTP/1.1" 500 -
+[2016-12-08 18:04:34,494](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-12-08 18:04:34,551](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:04:35,194](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:04:35,196](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:04:35,200](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:05:03,792](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-12-08 18:05:03,818](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:05:04,388](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:05:04,391](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:05:04,407](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:05:10,819](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\DAO.py', reloading
+[2016-12-08 18:05:10,862](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:05:11,194](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:05:11,197](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:05:11,200](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:05:14,446](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\DAO.py', reloading
+[2016-12-08 18:05:14,496](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:05:14,908](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:05:14,910](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:05:14,913](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:05:23,775](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:05:23] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 18:05:24,267](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:05:24] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 18:05:30,063](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:05:30,063](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:05:30,063](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 18:05:30,088](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:05:30] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:05:30,661](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:05:30] "POST /get_script_status HTTP/1.1" 500 -
+[2016-12-08 18:05:49,084](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:05:49,085](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:05:49,085](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 18:05:49,125](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:05:49] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:05:49,881](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:05:49] "POST /get_script_status HTTP/1.1" 500 -
+[2016-12-08 18:07:38,944](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\DAO.py', reloading
+[2016-12-08 18:07:38,973](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:07:39,315](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:07:39,315](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:07:39,319](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:07:52,971](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:07:52] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 18:07:53,334](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:07:53] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 18:07:56,437](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:07:56,438](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:07:56,443](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 18:07:56,467](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:07:56] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:07:56,653](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:07:56] "POST /get_script_status HTTP/1.1" 500 -
+[2016-12-08 18:08:06,992](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:08:06,993](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:08:06,994](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 18:08:07,009](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:08:07] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:08:07,186](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:08:07] "POST /get_script_status HTTP/1.1" 500 -
+[2016-12-08 18:10:09,007](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-12-08 18:10:09,025](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:10:09,451](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:10:09,467](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:10:09,467](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:10:24,907](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:10:24] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 18:10:25,200](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:10:25] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 18:10:30,964](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:10:30,964](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:10:30,966](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 18:10:30,989](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:10:30] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:10:31,499](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:10:31] "POST /get_script_status HTTP/1.1" 500 -
+[2016-12-08 18:10:52,026](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-12-08 18:10:52,135](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:10:52,657](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:10:52,657](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:10:52,658](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:11:08,746](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:11:08,746](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:11:08,749](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 18:11:08,769](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:11:08] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:11:09,374](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:11:09] "POST /get_script_status HTTP/1.1" 500 -
+[2016-12-08 18:11:27,990](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:11:27,990](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:11:27,993](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 18:11:28,006](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:11:28] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:11:28,345](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:11:28] "POST /get_script_status HTTP/1.1" 500 -
+[2016-12-08 18:12:21,365](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:12:21] "POST /get_results HTTP/1.1" 404 -
+[2016-12-08 18:13:00,523](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\DAO.py', reloading
+[2016-12-08 18:13:00,555](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:13:01,069](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:13:01,069](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:13:01,085](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:13:04,664](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:13:04] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-08 18:13:05,009](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:13:05] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-08 18:13:12,473](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:13:12,476](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:13:12,479](INFO)scriptstool : env_hosts type:<type 'unicode'>
+[2016-12-08 18:13:12,500](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:13:12] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:13:12,694](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:13:12] "POST /get_script_status HTTP/1.1" 500 -
+[2016-12-08 18:16:00,407](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-12-08 18:16:00,506](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:16:00,927](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:16:00,927](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:16:00,927](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:16:06,619](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:16:06,625](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:16:06,628](INFO)scriptstool : env_hosts:192.168.74.12
+[2016-12-08 18:16:06,658](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:16:06] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:16:07,098](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:16:07] "POST /get_script_status HTTP/1.1" 500 -
+[2016-12-08 18:23:46,210](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\DAO.py', reloading
+[2016-12-08 18:23:46,243](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:23:46,677](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:23:46,677](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:23:46,677](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:24:13,842](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:24:13,842](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:24:13,842](INFO)scriptstool : env_hosts:192.168.74.12
+[2016-12-08 18:24:13,854](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:24:13] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:24:14,411](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:24:14] "POST /get_script_status HTTP/1.1" 500 -
+[2016-12-08 18:25:45,135](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\Connector.py', reloading
+[2016-12-08 18:25:45,167](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:25:45,700](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:25:45,700](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:25:45,700](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:25:55,519](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:25:55,526](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:25:55,532](INFO)scriptstool : env_hosts:192.168.74.12
+[2016-12-08 18:25:55,551](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:25:55] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:25:55,710](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:25:55] "POST /get_script_status HTTP/1.1" 500 -
+[2016-12-08 18:28:57,812](INFO)werkzeug :  * Detected change in 'D:\\code\\python\\script_tools\\DAO.py', reloading
+[2016-12-08 18:28:57,861](INFO)werkzeug :  * Restarting with stat
+[2016-12-08 18:28:58,381](WARNING)werkzeug :  * Debugger is active!
+[2016-12-08 18:28:58,398](INFO)werkzeug :  * Debugger pin code: 441-951-684
+[2016-12-08 18:28:58,414](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-08 18:30:40,757](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-08 18:30:40,766](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-08 18:30:40,769](INFO)scriptstool : env_hosts:192.168.74.12
+[2016-12-08 18:30:40,792](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:30:40] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-08 18:30:41,290](INFO)werkzeug : 127.0.0.1 - - [08/Dec/2016 18:30:41] "POST /get_script_status HTTP/1.1" 500 -

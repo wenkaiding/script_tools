@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # coding: utf-8
+import pdb
+
 import DB
 import tools as tools
 
@@ -15,6 +17,7 @@ class DAO:
     # 获取ssh连接登陆信息
     def get_connection_info(self, script_env):
         ret = self.session.query(self.env).filter(self.env.env_name == script_env).all()
+        print ret[0]
         return ret[0]
 
     def get_script_info(self, env, script_name):
@@ -53,11 +56,11 @@ class DAO:
         scripts_all_data = self.session.query(self.scripts).all()
         return scripts_all_data
 
-    def get_updatetime(self, script_name, env):
+    def get_updatetime(self, script_name):
         updatetime = self.session.query(self.resluts.update_time).filter(self.resluts.scripts_name == script_name).all()
         return updatetime
 
-    def get_createtime(self, script_name, env):
+    def get_createtime(self, script_name):
         updatetime = self.session.query(self.resluts.create_time).filter(self.resluts.scripts_name == script_name).all()
         return updatetime
 
@@ -65,9 +68,10 @@ class DAO:
         self.session.query(self.scripts.script_name == scripname, self.scripts.script_env == env).update(
             {"script_status": status})
         self.session.commit()
+        return "update ok"
 
     def get_status(self, script_name, env):
-        status = self.session.query(self.scripts.script_status).filter(self.scripts.script_name == script_name, self.scripts.script_env == env).all()[0][0]
+        status = self.session.query(self.scripts.script_status).filter(self.scripts.script_name == script_name, self.scripts.script_env == env).all()
         return status
 
 

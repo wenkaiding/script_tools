@@ -20,6 +20,7 @@ $(document).ready(function () {
             $.ajax({
                 type: "POST",
                 url: "/run_scrip",
+                data: data,
             });
             $.ajax({
                 type: "POST",

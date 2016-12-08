@@ -28,15 +28,16 @@ class Connctor:
         self.dao = dao
 
     def run_script(self, fp, env, script_name):
-        status = self.dao.get_status(script_name, env)
+        self.logger.info("start to run script: script_name is {}, env is {}".format(script_name, env))
+        status = self.dao().get_status(script_name, env)
         if status != "1":
-            self.execute_cmd(fp, env, script_name)
+            self.execute_cmd(env, fp, script_name)
         else:
             return status
 
     # 创建sshclient连接服务器,执行命令
     def execute_cmd(self, env, fp, script_name):
-        self.logger.info("env:{},script_name:{}".format(env, script_name))
+        self.logger.info("start to execute_cmd env:{},script_name:{}".format(env, script_name))
         # 获取环境信息
         self.get_conn_info(env)
         conn_info = self.conn_info
@@ -79,7 +80,7 @@ class Connctor:
     # 获取链接详细
     def get_conn_info(self, env):
         self.conn = dao().get_connection_info(env)
-        self.logger.info("env_hosts type:{}".format(type(self.conn.env_hosts)))
+        self.logger.info("env_hosts:{}".format(self.conn.env_hosts))
         self.conn_info["hostname"] = self.conn.env_hosts
         self.conn_info["password"] = self.conn.env_password
         self.conn_info["username"] = self.conn.env_username
@@ -141,6 +142,7 @@ class Connctor:
 
             tr ="<tr>" \
                     "<td>" + tem["ScriptInfo"] + "</td>" \
+                    "<td class='"+tem["ScriptInfo"]+"_name'>"+tem["scriptdetail"]+"</td>"\
                     "<td class='" + tem["ScriptInfo"] + "_status    '>" + status + "</td>" \
                     "<td class='tab .thead .right'>" \
                         "<button class='" + tem["ScriptName"] + "' value='Intranet'>内测</button> " \
@@ -155,15 +157,15 @@ class Connctor:
     # 检查运行状态
     def check_script_status(self, script_name, env):
 
-        update_time = self.dao.get_updatetime(script_name)
-        create_time = self.dao.get_createtime(script_name)
+        update_time = self.dao().get_updatetime(script_name)
+        create_time = self.dao().get_createtime(script_name)
         try:
             if update_time <= create_time:
-                self.dao.update_script_status(script_name, env, status=1)
+                self.dao().update_script_status(script_name, env, status=1)
             elif update_time > create_time:
-                self.dao.update_script_status(script_name, env, status=2)
+                self.dao().update_script_status(script_name, env, status=2)
             else:
-                self.dao.update_script_status(script_name, env, status=0)
+                self.dao().update_script_status(script_name, env, status=0)
         except:
             print traceback.print_exc()
 
@@ -174,15 +176,13 @@ class Connctor:
         for index in range(script_data.__len__()):
             item = {}
             tem = script_data[index].get_all()
-            print tem
             item["ScriptName"] = tem["short_name"]
             item["ScriptInfo"] = tem["script_info"]
             item["ScriptStatus"] = tem["script_status"]
+            item["scriptdetail"] = tem["script_detail"]
 
             table_info.append(tool().encode_fac(item))
-        print "##############"
-        print table_info
-        print "##############"
+
         return table_info
 
     def change_status_to_chinese(self,status):
