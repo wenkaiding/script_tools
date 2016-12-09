@@ -28,7 +28,6 @@ def run_scrip():
     fp = request.form.get("fp")
     env = request.form.get("env")
     script_name = request.form.get("scrip_name")
-    print env, script_name
     connector.run_script(env=env, fp=fp, script_name=script_name)
     return "done"
 
@@ -43,7 +42,7 @@ def get_scripts_status():
     script_name = request.form.get("scrip_name")
     env = request.form.get("env")
     status = connector.check_script_status(script_name, env)
-    return status
+    return str(status)
 
 
 @app.route("/get_result_page", methods=['POST'])

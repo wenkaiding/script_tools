@@ -30,7 +30,7 @@ class Connctor:
     def run_script(self, fp, env, script_name):
         self.logger.info("start to run script: script_name is {}, env is {}".format(script_name, env))
         status = self.dao().get_status(script_name, env)
-        if status != "1":
+        if status != 1:
             self.execute_cmd(env, fp, script_name)
         else:
             return status
@@ -50,10 +50,11 @@ class Connctor:
             script_id = dao().get_script_info(env, script_name).id
             createtime = time.time()
             dao().update_reslut_createtime(script_id, createtime)
-            self.tool.encode_fac(conn_info)
+            self.tool().encode_fac(conn_info)
             self.result = self.create_client(conn_info["hostname"], conn_info["port"], conn_info["username"],
                                              conn_info["password"], execmd)
             updatetime = time.time()
+            dao().update_reslut_updatetime(script_id, updatetime)
             script_id = dao().get_script_info(env, script_name).id
             self.logger.info("result:{}".format(self.result))
             data = self.processing_results(env=env, script_name=script_name, resluts=self.result, fp=fp)
@@ -68,7 +69,6 @@ class Connctor:
                 "脚本名称:{}".format(scriptinfo.script_data[script_name][1]),
                 "执行的结果为:{}".format(resluts)]
         if env == "Intranet":
-
             # noinspection PyTypeChecker
             item.insert(2, "当前执行的机器为:{}".format(fp))
             resluts = "\n".join(item)
@@ -80,7 +80,6 @@ class Connctor:
     # 获取链接详细
     def get_conn_info(self, env):
         self.conn = dao().get_connection_info(env)
-        self.logger.info("env_hosts:{}".format(self.conn.env_hosts))
         self.conn_info["hostname"] = self.conn.env_hosts
         self.conn_info["password"] = self.conn.env_password
         self.conn_info["username"] = self.conn.env_username
@@ -156,18 +155,21 @@ class Connctor:
 
     # 检查运行状态
     def check_script_status(self, script_name, env):
-
-        update_time = self.dao().get_updatetime(script_name)
-        create_time = self.dao().get_createtime(script_name)
-        try:
-            if update_time <= create_time:
-                self.dao().update_script_status(script_name, env, status=1)
-            elif update_time > create_time:
-                self.dao().update_script_status(script_name, env, status=2)
-            else:
-                self.dao().update_script_status(script_name, env, status=0)
-        except:
-            print traceback.print_exc()
+        self.logger.info("start to check script status,script_name:{} env:{}".format(script_name,env))
+        update_time = float(self.dao().get_updatetime(script_name))
+        create_time = float(self.dao().get_createtime(script_name))
+        if update_time <= create_time:
+            status = 1
+            self.dao().update_script_status(script_name, env, status)
+            return status
+        elif update_time > create_time:
+            status = 2
+            self.dao().update_script_status(script_name, env, status)
+            return status
+        else:
+            status = 0
+            self.dao().update_script_status(script_name, env, status)
+            return status
 
     # 获取脚本列表的详细信息
     def get_table_info(self):
