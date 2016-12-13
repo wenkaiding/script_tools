@@ -18,22 +18,21 @@ class Scripts(Base):
     script_name = Column(String(32))
     script_info = Column(String(16))
     short_name = Column(String(16))
-    script_content = Column(String(32))
+    script_content_n = Column(String(254))
+    script_content_o = Column(String(254))
     script_detail = Column(String(32))
-    script_env = Column(String(11))
     script_status = Column(Integer)
 
     def get_all(self):
         return {"id": self.id,
-                "script_content": self.script_content,
+                "script_content_0": self.script_content_o,
+                "script_content_n": self.script_content_n,
                 "script_info": self.script_info,
                 "script_name": self.script_name,
                 "script_status": self.script_status,
                 "short_name": self.short_name,
-                "script_env": self.script_env,
                 "script_detail": self.script_detail
                 }
-
 
 # 创建单表
 class Env(Base):
@@ -61,7 +60,15 @@ class Resluts(Base):
     scripts_id = Column(Integer)
     update_time = Column(String(32))
     create_time = Column(String(32))
-
+    def get_all(self):
+        return {
+            "id":self.id,
+            "data":self.data,
+            "env":self.env,
+            "scripts_name":self.scripts_name,
+            "update_time":self.update_time,
+            "create_time":self.create_time
+        }
 
 def init_db():
     # 创建表

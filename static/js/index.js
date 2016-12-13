@@ -12,35 +12,42 @@ $(document).ready(function () {
     });
     $(".tbody").on("click",'button',function(){
         var name = this.className;
-        var status = this.className+"_status";
+        var status = "."+this.className+"_status";
+
         if (this.value=="Intranet"||this.value=="Outside"){
+            $(status).empty();
+            $(status).append("执行中");
             $('#loading').fadeIn('fast');
             var data={env:this.value,fp:$('.fp_sel').val(),scrip_name:name};
             //Ajax调用处理
             $.ajax({
                 type: "POST",
                 url: "/run_scrip",
-                data: data,
+                data: data
             });
             $.ajax({
                 type: "POST",
                 url: "/get_script_status",
                 data: data,
-                 success:function(result){
-                     $(this.ClassName)
-                 }
+                success:function(result){
+                     $(status).empty();
+                     $(status).append(result)
+
+                }
             });
         }
         else{
-            var data={env:this.value,fp:$('.fp_sel').val(),scrip_name:name};
+            var data={env:this.value,fp:$('.fp_sel').val(),script_name:name};
             //Ajax调用处理
             $.ajax({
                 type: "POST",
-                url: "/get_results",
+                url: "/get_result_page",
                 data: data,
-                 success:function(result){
-                     alert(result)
-                 }
+                success:function(result){
+                    $('.sripts_result').empty();
+                    $('.sripts_result').append(result)
+
+                }
             });
         }
 

@@ -19,7 +19,6 @@ execmds_intranet = {
     "k9k9": "",
     "taoke": "php /usr/local/webdata/php/{}/union/Cron/Cron.php method=cacheTaobaoSecondTaokeItems",
     "gaea": "php /usr/local/webdata/php/{}/gaea/Cron/Cron.php method=readData"
-
 }
 execmds_outside = {
     "ABtest": "php /usr/local/webdata/fun/fun/batch/Betatest/cacheAppBetatest.php",

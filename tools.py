@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # coding: utf-8
+import time
+
 __author__ = 'martin'
 
 
@@ -42,3 +44,8 @@ class Tools:
         else:
             obj = obj
         return obj
+
+    def get_time(self,timeStamp):
+        timeArray = time.localtime(timeStamp)
+        otherStyleTime = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
+        return otherStyleTime

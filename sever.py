@@ -29,6 +29,8 @@ def run_scrip():
     env = request.form.get("env")
     script_name = request.form.get("scrip_name")
     connector.run_script(env=env, fp=fp, script_name=script_name)
+    print connector.run_script(env=env, fp=fp, script_name=script_name)
+
     return "done"
 
 @app.route("/get_table_info", methods=['GET'])
@@ -47,7 +49,8 @@ def get_scripts_status():
 
 @app.route("/get_result_page", methods=['POST'])
 def get_result_page():
-    return render_template('result.html')
-
+    script_name = request.form.get("script_name")
+    result = connector.get_result_page(script_name)
+    return result
 if __name__ == '__main__':
     app.run(debug=True, host='127.0.0.1', port=5000)

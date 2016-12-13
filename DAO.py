@@ -19,9 +19,8 @@ class DAO:
         ret = self.session.query(self.env).filter(self.env.env_name == script_env).all()
         return ret[0]
 
-    def get_script_info(self, env, script_name):
-        ret = self.session.query(self.scripts).filter(self.scripts.script_name == script_name,
-                                                      self.scripts.script_env == env).all()
+    def get_script_info(self, script_name):
+        ret = self.session.query(self.scripts).filter(self.scripts.script_name == script_name).all()
         return ret[0]
 
     def create_resluts(self, script_name, script_id, data, env, createtime, updatetime):
@@ -63,21 +62,28 @@ class DAO:
         updatetime = self.session.query(self.resluts.create_time).filter(self.resluts.scripts_name == script_name).all()[0][0]
         return updatetime
 
-    def update_script_status(self, scripname, env, status):
-        print scripname, env , status
-        self.session.query(self.scripts).filter(self.scripts.script_name == scripname, self.scripts.script_env == env).update({"script_status": status})
+    def update_script_status(self, scripname, status):
+        self.session.query(self.scripts).filter(self.scripts.script_name == scripname).update({"script_status": status})
         self.session.commit()
 
-    def get_status(self, script_name, env):
-        status = self.session.query(self.scripts.script_status).filter(self.scripts.script_name == script_name, self.scripts.script_env == env).all()[0][0]
+    def get_status(self, script_name):
+        status = self.session.query(self.scripts.script_status).filter(self.scripts.script_name == script_name).all()[0][0]
         return status
 
     def update_reslut_updatetime(self, script_id, updatetime):
         self.session.query(self.resluts).filter(self.resluts.scripts_id == script_id).update({"create_time": updatetime})
         self.session.commit()
 
+    def get_last_script(self):
+        tem = self.session.query(self.resluts).all()
+        return tem
+
+    def get_result_by_script_name(self, script_name):
+        tem = self.session.query(self.resluts).filter(self.resluts.scripts_name == script_name).all()
+        return tem
+
 if __name__ == '__main__':
     dao = DAO()
     # for i in range(dao.get_all_script_info().__len__()):
-    #     print dao.tool.encode_fac(dao.get_all_script_info()[i].get_all())
+    # print dao.tool.encode_fac(dao.get_all_script_info()[i].get_all())
     print dao.update_script_status("ABtest", "Outside", 1)
