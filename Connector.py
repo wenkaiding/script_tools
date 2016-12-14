@@ -3,6 +3,7 @@
 import logging
 import os
 import pdb
+import threading
 import traceback
 
 import paramiko
@@ -10,7 +11,6 @@ import logging.config
 
 import time
 
-import scriptinfo
 from tools import Tools as tool
 from DAO import DAO as dao
 
@@ -39,10 +39,11 @@ class Connctor:
                 status = 2
                 self.dao().update_script_status(script_name,status)
                 self.logger.info("set {} status to {}".format(script_name,status))
-            except:
+            except Exception,e:
                 status = 3
                 self.dao().update_script_status(script_name,status)
                 self.logger.info("set {} status to {}".format(script_name,status))
+                print Exception, ":", e
         else:
             self.logger.info("status is running, so skip")
             return status
@@ -71,14 +72,15 @@ class Connctor:
             self.logger.info("result:{}".format(self.result))
             data = self.processing_results(env=env, script_name=script_name, resluts=self.result, fp=fp)
             dao().create_resluts(script_name, script_id, data, env, createtime, updatetime)
-            return data
+            self.logger.info("data {}".format(data))
         else:
             return ping_result
 
     def processing_results(self, env, script_name, resluts, fp):
+        info = self.get_script_info_by_name(script_name)
         item = ["当前执行的环境为: {}".format(self.conn_info["environment"]),
-                "执行的脚本为: {}".format(scriptinfo.script_data[script_name][0]),
-                "脚本名称: {}".format(scriptinfo.script_data[script_name][1]),
+                "执行的脚本为: {}".format(info["info"]),
+                "脚本名称: {}".format(info["name"]),
                 "执行的结果为: {}".format(resluts)]
         if env == "Intranet":
             # noinspection PyTypeChecker
@@ -153,10 +155,10 @@ class Connctor:
         result_scriptname = self.get_result_scriptname()
         for tem in item:
             status = self.change_status_to_chinese(tem["ScriptStatus"])
+            env = "Intranet"
             if tem["ScriptName"] in result_scriptname:
-                env =  last_item[result_scriptname.index(str(tem["ScriptName"]))][0]
+                env = last_item[result_scriptname.index(str(tem["ScriptName"]))][0]
                 # status += last_item[1][last_item[0].index(self.tool().encode_fac(tem["ScriptName"]))]
-
             tr ="<tr>" \
                     "<td>" + tem["ScriptInfo"] + "</td>" \
                     "<td class='"+ tem["ScriptName"]+"_name'>"+tem["scriptdetail"]+"</td>"\
@@ -243,6 +245,7 @@ class Connctor:
 
     def get_result_page(self,script_name):
         item = self.tool().encode_fac(self.get_result_data(script_name))
+
         table_info =\
             "<tr>\
                 <td>脚本名称</td>\
@@ -264,12 +267,33 @@ class Connctor:
     def get_result_data(self, script_name):
         result_data = {}
         item = self.dao().get_result_by_script_name(script_name)[0].get_all()
-
-        result_data["script_name"] = item["scripts_name"]
+        print item["data"]
+        tem =self.get_script_info_by_name(script_name)
+        result_data["script_name"] = tem["info"]
         result_data["last_time"] = self.tool().get_time(float(item["update_time"]))
         result_data["status"] = self.change_status_to_chinese(self.dao().get_status(script_name))
         result_data["result"] = item["data"]
         return result_data
+
+    def start_thread(self,func,*args):
+        threads = []
+        t1 = threading.Thread(target=func, args=(args))
+        threads.append(t1)
+        lock = threading.Lock()
+        lock.acquire()
+        for t in threads:
+            t.setDaemon(True)
+            t.start()
+            lock.release()
+
+    def get_script_info_by_name(self, script_name):
+        item = {}
+        tem = self.tool().encode_fac(self.dao().get_script_info_by_name(script_name).get_all())
+        item["name"] = tem["script_info"]
+        item["info"] = tem["script_detail"]
+
+        return item
+
 if __name__ == '__main__':
     conn = Connctor()
     conn.get_result_data("ABtest")

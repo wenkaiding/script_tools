@@ -33,11 +33,9 @@ class DAO:
         for item in ret:
             tem.append(item[0])
         self.tool.encode_fac(tem)
-
         if script_id not in tem:
             self.session.add(resluts)
             self.session.commit()
-
         else:
             self.update_resluts(update_info, script_id)
 
@@ -79,8 +77,14 @@ class DAO:
         return tem
 
     def get_result_by_script_name(self, script_name):
+        print script_name
         tem = self.session.query(self.resluts).filter(self.resluts.scripts_name == script_name).all()
         return tem
+
+    def get_script_info_by_name(self, script_name):
+        tem = self.session.query(self.scripts).filter(self.scripts.script_name == script_name).all()[0]
+        return tem
+
 
 if __name__ == '__main__':
     dao = DAO()

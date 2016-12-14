@@ -20,7 +20,7 @@ connector = Connector.Connctor()
 # welcome page
 @app.route('/')
 def index():
-    return render_template('blank.html')
+    return render_template('index.html')
 
 
 @app.route("/run_scrip", methods=['POST'])
@@ -29,8 +29,6 @@ def run_scrip():
     env = request.form.get("env")
     script_name = request.form.get("scrip_name")
     connector.run_script(env=env, fp=fp, script_name=script_name)
-    print connector.run_script(env=env, fp=fp, script_name=script_name)
-
     return "done"
 
 @app.route("/get_table_info", methods=['GET'])

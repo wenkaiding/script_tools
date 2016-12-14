@@ -1,644 +1,112 @@
-[2016-12-12 18:09:28,810](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:09:28] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 200 -
-[2016-12-12 18:09:28,814](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:09:28] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 200 -
-[2016-12-12 18:09:28,820](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:09:28] "GET /static/assets1/js/ace.min.js HTTP/1.1" 200 -
-[2016-12-12 18:09:29,048](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:09:29] "GET /static/assets1/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 -
-[2016-12-12 18:09:29,214](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:09:29] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:09:54,400](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:09:54] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:14:16,010](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
-[2016-12-12 18:14:16,035](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 200 -
-[2016-12-12 18:14:16,039](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 200 -
-[2016-12-12 18:14:16,041](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/css/ace.min.css HTTP/1.1" 200 -
-[2016-12-12 18:14:16,046](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 200 -
-[2016-12-12 18:14:16,048](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 200 -
-[2016-12-12 18:14:16,051](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/js/index.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,054](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,057](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,060](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,063](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,066](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,070](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,073](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/ace.min.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,346](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
-[2016-12-12 18:14:16,369](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 200 -
-[2016-12-12 18:14:16,373](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 200 -
-[2016-12-12 18:14:16,376](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/css/ace.min.css HTTP/1.1" 200 -
-[2016-12-12 18:14:16,387](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 200 -
-[2016-12-12 18:14:16,391](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 200 -
-[2016-12-12 18:14:16,395](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/js/index.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,397](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,402](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,405](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,407](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,411](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,414](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,416](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/js/ace.min.js HTTP/1.1" 200 -
-[2016-12-12 18:14:16,740](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /static/assets1/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 -
-[2016-12-12 18:14:16,954](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:16] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:14:20,830](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:14:20] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:15:32,824](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:15:32] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
-[2016-12-12 18:15:33,046](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:15:33] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:15:34,196](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:15:34] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:19:15,787](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:19:15] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 18:19:15,904](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:19:15] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:19:17,591](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:19:17] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:20:02,414](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:20:02] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
-[2016-12-12 18:20:02,534](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:20:02] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:20:03,806](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:20:03] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:23:00,957](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:00] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
-[2016-12-12 18:23:00,985](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:00] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 200 -
-[2016-12-12 18:23:00,990](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:00] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 200 -
-[2016-12-12 18:23:00,994](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:00] "GET /static/assets1/css/ace.min.css HTTP/1.1" 200 -
-[2016-12-12 18:23:01,000](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:01] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 200 -
-[2016-12-12 18:23:01,004](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:01] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 200 -
-[2016-12-12 18:23:01,007](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:01] "GET /static/js/index.js HTTP/1.1" 200 -
-[2016-12-12 18:23:01,010](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:01] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 200 -
-[2016-12-12 18:23:01,033](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:01] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 200 -
-[2016-12-12 18:23:01,039](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:01] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 200 -
-[2016-12-12 18:23:01,045](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:01] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 200 -
-[2016-12-12 18:23:01,048](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:01] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 200 -
-[2016-12-12 18:23:01,051](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:01] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 200 -
-[2016-12-12 18:23:01,056](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:01] "GET /static/assets1/js/ace.min.js HTTP/1.1" 200 -
-[2016-12-12 18:23:01,769](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:01] "GET /static/assets1/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 200 -
-[2016-12-12 18:23:01,944](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:01] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:23:06,093](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:06] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:23:16,925](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:16] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 18:23:17,070](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:17] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:23:50,531](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:50] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:23:54,966](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:54] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:23:58,398](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:23:58] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:24:01,287](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 18:24:01,288](INFO)scriptstool : status is running, so skip
-[2016-12-12 18:24:01,288](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 18:24:01,291](INFO)scriptstool : status is running, so skip
-[2016-12-12 18:24:01,291](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:24:01] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-12 18:24:01,292](INFO)scriptstool : start to check script status,script_name:ABtest env:Intranet
-[2016-12-12 18:24:01,296](INFO)scriptstool : get ABtest status in 1, status is Intranet
-[2016-12-12 18:24:01,296](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:24:01] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-12 18:24:19,435](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:24:19] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 18:24:19,558](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:24:19] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:24:20,393](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:24:20] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:24:30,743](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:24:30] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:24:34,320](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:24:34] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:24:38,648](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:24:38] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:24:52,912](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:24:52] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:24:56,899](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:24:56] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:24:59,764](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:24:59] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:25:04,557](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:25:04] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:25:13,781](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:25:13] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:25:21,724](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:25:21] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:25:25,643](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:25:25] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:27:01,523](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:01] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 18:27:01,646](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:01] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:27:15,227](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:15] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:27:18,323](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:18] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:27:21,342](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 18:27:21,344](INFO)scriptstool : status is running, so skip
-[2016-12-12 18:27:21,344](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 18:27:21,345](INFO)scriptstool : status is running, so skip
-[2016-12-12 18:27:21,346](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:21] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-12 18:27:21,350](INFO)scriptstool : start to check script status,script_name:ABtest env:Intranet
-[2016-12-12 18:27:21,351](INFO)scriptstool : get ABtest status in 1, status is Intranet
-[2016-12-12 18:27:21,352](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:21] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-12 18:27:22,588](INFO)scriptstool : start to run script: script_name is ABtest, env is Outside
-[2016-12-12 18:27:22,589](INFO)scriptstool : status is running, so skip
-[2016-12-12 18:27:22,590](INFO)scriptstool : start to run script: script_name is ABtest, env is Outside
-[2016-12-12 18:27:22,591](INFO)scriptstool : status is running, so skip
-[2016-12-12 18:27:22,592](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:22] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-12 18:27:22,593](INFO)scriptstool : start to check script status,script_name:ABtest env:Outside
-[2016-12-12 18:27:22,595](INFO)scriptstool : get ABtest status in 1, status is Outside
-[2016-12-12 18:27:22,595](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:22] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-12 18:27:26,113](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:26] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 18:27:26,275](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:26] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:27:27,195](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:27] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 18:27:27,280](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:27] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:27:52,710](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:52] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 18:27:52,821](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:52] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:27:54,245](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:54] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 18:27:54,336](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:54] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:27:56,009](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:56] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 18:27:56,092](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:27:56] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:28:01,634](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:28:01] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:30:30,351](INFO)scriptstool : start to run script: script_name is Super, env is Intranet
-[2016-12-12 18:30:30,352](INFO)scriptstool : set Super status to 1
-[2016-12-12 18:30:30,355](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:Super
-[2016-12-12 18:30:30,371](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 18:30:30,376](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 18:30:30,376](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/super/Cron/Supercron.php method=readData
-[2016-12-12 18:30:30,393](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 18:30:30,611](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 18:30:30,664](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 18:30:30,766](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 18:30:30,816](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 18:30:30,824](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/super/Cron/Supercron.php
+[2016-12-13 16:23:27,405](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp156/fun/batch/goshop/cacheTemplates.php
+[2016-12-13 16:23:27,420](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
+[2016-12-13 16:23:27,586](INFO)paramiko.transport : Authentication (publickey) failed.
+[2016-12-13 16:23:27,597](INFO)paramiko.transport : Authentication (password) successful!
+[2016-12-13 16:23:27,602](INFO)paramiko.transport : Secsh channel 1 opened.
+[2016-12-13 16:23:31,419](INFO)scriptstool : success connect to SSHClient,start to execute command
+[2016-12-13 16:23:31,426](INFO)scriptstool : result:共缓存goshop模版: 默认：1000, 其他指定参数：1610，删除：487;
+共删除goshop模版: web：68, wap：692;
+多模板商家配置: 2, 删除无效的 0;
+缓存其他非合作商家跳转白名单域名：17;
+共花费时间 : 3.746s
 
-[2016-12-12 18:30:30,829](INFO)scriptstool : set Super status to 2
-[2016-12-12 18:30:30,829](INFO)scriptstool : start to run script: script_name is Super, env is Intranet
-[2016-12-12 18:30:30,830](INFO)scriptstool : set Super status to 1
-[2016-12-12 18:30:30,832](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:Super
-[2016-12-12 18:30:30,842](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 18:30:30,845](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 18:30:30,845](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/super/Cron/Supercron.php method=readData
-[2016-12-12 18:30:30,883](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 18:30:31,056](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 18:30:31,070](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 18:30:31,078](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 18:30:31,126](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 18:30:31,132](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/super/Cron/Supercron.php
+[2016-12-13 16:23:31,432](INFO)scriptstool : data 当前执行的环境为: 内测<br>执行的脚本为: cacheTemplates.php<br>当前执行的机器为:fp156<br>脚本名称: 商城脚本<br>执行的结果为: 共缓存goshop模版: 默认：1000, 其他指定参数：1610，删除：487;
+共删除goshop模版: web：68, wap：692;
+多模板商家配置: 2, 删除无效的 0;
+缓存其他非合作商家跳转白名单域名：17;
+共花费时间 : 3.746s
 
-[2016-12-12 18:30:31,137](INFO)scriptstool : set Super status to 2
-[2016-12-12 18:30:31,138](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:30:31] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-12 18:30:31,139](INFO)scriptstool : start to check script status,script_name:Super env:Intranet
-[2016-12-12 18:30:31,141](INFO)scriptstool : get Super status in 2, status is Intranet
-[2016-12-12 18:30:31,141](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:30:31] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-12 18:30:33,610](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:30:33] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:30:46,493](INFO)scriptstool : start to run script: script_name is Super, env is Intranet
-[2016-12-12 18:30:46,494](INFO)scriptstool : set Super status to 1
-[2016-12-12 18:30:46,497](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:Super
-[2016-12-12 18:30:46,508](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 18:30:46,514](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 18:30:46,514](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp156/super/Cron/Supercron.php method=readData
-[2016-12-12 18:30:46,529](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 18:30:46,680](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 18:30:46,698](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 18:30:46,703](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 18:31:19,159](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[2016-12-12 18:31:19,164](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 18:31:19,412](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 18:31:19,426](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 18:31:46,092](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 18:31:46,133](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 304 -
-[2016-12-12 18:31:46,135](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
-[2016-12-12 18:31:46,137](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/assets1/css/ace.min.css HTTP/1.1" 304 -
-[2016-12-12 18:31:46,139](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 304 -
-[2016-12-12 18:31:46,149](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 304 -
-[2016-12-12 18:31:46,155](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/js/index.js HTTP/1.1" 304 -
-[2016-12-12 18:31:46,157](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 304 -
-[2016-12-12 18:31:46,168](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 304 -
-[2016-12-12 18:31:46,170](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 304 -
-[2016-12-12 18:31:46,173](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 304 -
-[2016-12-12 18:31:46,175](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 304 -
-[2016-12-12 18:31:46,178](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 304 -
-[2016-12-12 18:31:46,183](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /static/assets1/js/ace.min.js HTTP/1.1" 304 -
-[2016-12-12 18:31:46,619](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:46] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:31:48,062](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:31:48] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:39:34,876](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:39:34] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:40:50,621](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 18:40:50,648](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 18:40:50,914](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 18:40:50,927](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 18:41:44,397](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 18:41:44,432](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 18:41:44,965](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 18:41:44,980](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 18:41:53,811](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:41:53] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 18:41:53,930](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:41:53] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:41:55,433](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:41:55] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:42:00,862](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 18:42:00,864](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 18:42:00,868](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 18:42:00,935](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 18:42:00,940](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 18:42:00,941](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 18:42:00,971](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 18:42:01,155](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 18:42:01,162](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 18:42:01,170](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 18:42:01,256](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 18:42:01,264](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
+[2016-12-13 16:23:31,433](INFO)scriptstool : set Shop status to 2
+[2016-12-13 16:23:31,434](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 16:23:31] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-13 16:23:31,435](INFO)scriptstool : start to check script status,script_name:Shop env:Intranet
+[2016-12-13 16:23:31,436](INFO)scriptstool : get Shop status in 2, status is Intranet
+[2016-12-13 16:23:31,437](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 16:23:31] "POST /get_script_status HTTP/1.1" 200 -
+[2016-12-13 16:23:42,056](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 16:23:42] "POST /get_result_page HTTP/1.1" 200 -
+[2016-12-14 10:44:33,466](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
+[2016-12-14 10:44:33,490](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/assets/css/bootstrap.min.css HTTP/1.1" 304 -
+[2016-12-14 10:44:33,493](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/assets/css/font-awesome.min.css HTTP/1.1" 304 -
+[2016-12-14 10:44:33,497](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/assets/css/ace.min.css HTTP/1.1" 304 -
+[2016-12-14 10:44:33,504](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/assets/css/ace-rtl.min.css HTTP/1.1" 304 -
+[2016-12-14 10:44:33,507](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/assets/css/ace-skins.min.css HTTP/1.1" 304 -
+[2016-12-14 10:44:33,509](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/js/index.js HTTP/1.1" 304 -
+[2016-12-14 10:44:33,513](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/assets/js/ace-extra.min.js HTTP/1.1" 304 -
+[2016-12-14 10:44:33,516](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/assets/js/bootstrap.min.js HTTP/1.1" 304 -
+[2016-12-14 10:44:33,518](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/assets/js/typeahead-bs2.min.js HTTP/1.1" 304 -
+[2016-12-14 10:44:33,521](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/assets/js/jquery.dataTables.bootstrap.js HTTP/1.1" 304 -
+[2016-12-14 10:44:33,524](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/assets/js/jquery.dataTables.min.js HTTP/1.1" 304 -
+[2016-12-14 10:44:33,527](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/assets/js/ace.min.js HTTP/1.1" 304 -
+[2016-12-14 10:44:33,531](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /static/assets/js/ace-elements.min.js HTTP/1.1" 304 -
+[2016-12-14 10:44:33,723](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 10:44:33] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-14 13:30:15,462](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2016-12-14 13:30:15,468](INFO)werkzeug :  * Restarting with stat
+[2016-12-14 13:30:15,747](WARNING)werkzeug :  * Debugger is active!
+[2016-12-14 13:30:15,767](INFO)werkzeug :  * Debugger pin code: 843-477-760
+[2016-12-14 13:30:17,172](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:30:17] "GET / HTTP/1.1" 200 -
+[2016-12-14 13:30:17,449](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:30:17] "GET /static/assets/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 -
+[2016-12-14 13:30:17,928](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:30:17] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-14 13:30:23,507](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
+[2016-12-14 13:30:23,509](INFO)scriptstool : set ABtest status to 1
+[2016-12-14 13:30:23,512](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
+[2016-12-14 13:30:23,531](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
+[2016-12-14 13:30:23,535](INFO)scriptstool : start connect to SSHClient
+[2016-12-14 13:30:23,536](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
+[2016-12-14 13:30:23,549](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
+[2016-12-14 13:30:23,694](INFO)paramiko.transport : Authentication (publickey) failed.
+[2016-12-14 13:30:23,735](INFO)paramiko.transport : Authentication (password) successful!
+[2016-12-14 13:30:23,757](INFO)paramiko.transport : Secsh channel 1 opened.
+[2016-12-14 13:30:23,838](INFO)scriptstool : success connect to SSHClient,start to execute command
+[2016-12-14 13:30:23,845](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
 
-[2016-12-12 18:42:01,269](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 18:42:01,269](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 18:42:01,270](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 18:42:01,272](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 18:42:01,337](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 18:42:01,343](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 18:42:01,343](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 18:42:01,362](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 18:42:01,508](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 18:42:01,534](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 18:42:01,550](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 18:42:01,608](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 18:42:01,613](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
+[2016-12-14 13:30:23,854](INFO)scriptstool : data 当前执行的环境为: 内测<br>执行的脚本为: cacheAppBetatest.php<br>当前执行的机器为:fp12<br>脚本名称: 分流脚本<br>执行的结果为: Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
 
-[2016-12-12 18:42:01,619](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 18:42:01,619](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:42:01] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-12 18:42:01,620](INFO)scriptstool : start to check script status,script_name:ABtest env:Intranet
-[2016-12-12 18:42:01,622](INFO)scriptstool : get ABtest status in 2, status is Intranet
-[2016-12-12 18:42:01,622](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:42:01] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-12 18:42:03,180](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:42:03] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:42:48,549](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 18:42:48,589](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 18:42:48,984](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 18:42:49,001](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 18:42:55,056](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 18:42:55,098](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 18:42:55,564](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 18:42:55,578](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 18:43:03,137](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 18:43:03,150](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 18:43:03,155](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 18:43:03,199](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 18:43:03,204](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 18:43:03,204](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 18:43:03,222](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 18:43:03,496](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 18:43:03,518](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 18:43:03,536](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 18:43:03,600](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 18:43:03,606](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
+[2016-12-14 13:30:23,856](INFO)scriptstool : set ABtest status to 2
+[2016-12-14 13:30:23,856](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:30:23] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-14 13:30:23,857](INFO)scriptstool : start to check script status,script_name:ABtest env:Intranet
+[2016-12-14 13:30:23,859](INFO)scriptstool : get ABtest status in 2, status is Intranet
+[2016-12-14 13:30:23,859](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:30:23] "POST /get_script_status HTTP/1.1" 200 -
+[2016-12-14 13:30:32,704](INFO)scriptstool : start to run script: script_name is Super, env is Intranet
+[2016-12-14 13:30:32,706](INFO)scriptstool : set Super status to 1
+[2016-12-14 13:30:32,709](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:Super
+[2016-12-14 13:30:32,771](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
+[2016-12-14 13:30:32,776](INFO)scriptstool : start connect to SSHClient
+[2016-12-14 13:30:32,777](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/super/Cron/Supercron.php method=readData
+[2016-12-14 13:30:32,792](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
+[2016-12-14 13:30:32,940](INFO)paramiko.transport : Authentication (publickey) failed.
+[2016-12-14 13:30:32,963](INFO)paramiko.transport : Authentication (password) successful!
+[2016-12-14 13:30:32,969](INFO)paramiko.transport : Secsh channel 1 opened.
+[2016-12-14 13:30:33,028](INFO)scriptstool : success connect to SSHClient,start to execute command
+[2016-12-14 13:30:33,034](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/super/Cron/Supercron.php
 
-[2016-12-12 18:43:03,612](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 18:43:03,612](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 18:43:03,614](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 18:43:03,616](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 18:43:03,624](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 18:43:03,627](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 18:43:03,627](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 18:43:03,651](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 18:43:03,803](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 18:43:03,840](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 18:43:03,847](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 18:43:03,890](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 18:43:03,897](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
+[2016-12-14 13:30:33,039](INFO)scriptstool : data 当前执行的环境为: 内测<br>执行的脚本为: Supercron.php method=readData<br>当前执行的机器为:fp12<br>脚本名称: 超级返所有数据脚本readData<br>执行的结果为: Could not open input file: /usr/local/webdata/php/fp12/super/Cron/Supercron.php
 
-[2016-12-12 18:43:03,902](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 18:43:03,903](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:43:03] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-12 18:43:03,904](INFO)scriptstool : start to check script status,script_name:ABtest env:Intranet
-[2016-12-12 18:43:03,905](INFO)scriptstool : get ABtest status in 2, status is Intranet
-[2016-12-12 18:43:03,905](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:43:03] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-12 18:43:04,972](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:43:04] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:44:51,602](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 18:44:51,634](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 18:44:52,480](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 18:44:52,509](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 18:45:32,899](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 18:45:32,926](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 18:45:33,299](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 18:45:33,314](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 18:45:37,033](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:45:37] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 18:45:37,172](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:45:37] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:45:38,120](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 18:45:38,122](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 18:45:38,125](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 18:45:38,166](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 18:45:38,172](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 18:45:38,173](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 18:45:38,187](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 18:45:38,359](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 18:45:38,385](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 18:45:38,388](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 18:45:38,481](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 18:45:38,487](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-12 18:45:38,492](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 18:45:38,493](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 18:45:38,494](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 18:45:38,496](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 18:45:38,504](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 18:45:38,508](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 18:45:38,508](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 18:45:38,522](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 18:45:38,679](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 18:45:38,723](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 18:45:38,732](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 18:45:38,796](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 18:45:38,803](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-12 18:45:38,808](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 18:45:38,808](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:45:38] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-12 18:45:38,810](INFO)scriptstool : start to check script status,script_name:ABtest env:Intranet
-[2016-12-12 18:45:38,811](INFO)scriptstool : get ABtest status in 2, status is Intranet
-[2016-12-12 18:45:38,811](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:45:38] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-12 18:45:54,846](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:45:54] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 18:50:20,806](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 18:50:20,831](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 18:50:21,093](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 18:50:21,106](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 18:50:27,185](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 18:50:27,214](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 18:50:27,584](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 18:50:27,609](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 18:55:00,830](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[2016-12-12 18:55:00,832](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 18:55:01,080](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 18:55:01,093](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 18:55:03,742](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:55:03] "GET / HTTP/1.1" 200 -
-[2016-12-12 18:55:05,881](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:55:05] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 18:55:21,466](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 18:55:21] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 19:46:14,757](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:46:14] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 19:46:14,931](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:46:14] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 19:46:16,458](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:46:16] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 19:47:17,738](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 19:47:17,940](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 19:47:18,805](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 19:47:18,823](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 19:47:20,217](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:47:20] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 19:47:20,361](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:47:20] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 19:47:21,633](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 19:47:21,635](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 19:47:21,638](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 19:47:21,652](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 19:47:21,656](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 19:47:21,656](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 19:47:21,672](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 19:47:21,843](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 19:47:21,954](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 19:47:21,973](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 19:47:22,061](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 19:47:22,069](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-12 19:47:22,074](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 19:47:22,074](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 19:47:22,076](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 19:47:22,078](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 19:47:22,091](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 19:47:22,095](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 19:47:22,096](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 19:47:22,108](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 19:47:22,251](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 19:47:22,289](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 19:47:22,306](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 19:47:22,351](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 19:47:22,357](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-12 19:47:22,363](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 19:47:22,363](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:47:22] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-12 19:47:22,364](INFO)scriptstool : start to check script status,script_name:ABtest env:Intranet
-[2016-12-12 19:47:22,366](INFO)scriptstool : get ABtest status in 2, status is Intranet
-[2016-12-12 19:47:22,366](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:47:22] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-12 19:47:23,039](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:47:23] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 19:48:22,373](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 19:48:22,438](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 19:48:22,916](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 19:48:22,929](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 19:48:28,996](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 19:48:29,036](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 19:48:29,422](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 19:48:29,457](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 19:48:52,722](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 19:48:52,752](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 19:49:52,914](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[2016-12-12 19:49:52,916](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 19:49:53,352](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 19:49:53,368](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 19:49:53,673](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:49:53] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 19:49:53,820](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:49:53] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 19:49:55,477](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 19:49:55,479](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 19:49:55,482](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 19:49:55,504](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 19:49:55,508](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 19:49:55,508](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 19:49:55,523](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 19:49:55,669](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 19:49:55,697](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 19:49:55,702](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 19:49:55,808](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 19:49:55,813](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-12 19:49:55,819](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 19:49:55,820](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 19:49:55,821](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 19:49:55,823](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 19:49:55,831](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 19:49:55,835](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 19:49:55,835](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 19:49:55,856](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 19:49:56,030](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 19:49:56,064](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 19:49:56,085](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 19:49:56,155](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 19:49:56,161](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-12 19:49:56,168](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 19:49:56,168](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:49:56] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-12 19:49:56,170](INFO)scriptstool : start to check script status,script_name:ABtest env:Intranet
-[2016-12-12 19:49:56,171](INFO)scriptstool : get ABtest status in 2, status is Intranet
-[2016-12-12 19:49:56,171](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:49:56] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-12 19:49:57,524](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:49:57] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 19:50:58,947](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 19:50:58,979](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 19:50:59,325](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 19:50:59,340](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 19:51:01,099](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:51:01] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 19:51:01,221](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:51:01] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 19:51:02,662](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 19:51:02,664](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 19:51:02,667](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 19:51:02,682](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 19:51:02,686](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 19:51:02,686](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 19:51:02,700](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 19:51:02,847](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 19:51:02,943](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 19:51:02,972](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 19:51:03,055](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 19:51:03,063](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-12 19:51:03,068](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 19:51:03,069](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 19:51:03,070](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 19:51:03,072](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 19:51:03,082](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 19:51:03,086](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 19:51:03,086](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 19:51:03,126](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 19:51:03,339](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 19:51:03,365](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 19:51:03,370](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 19:51:03,431](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 19:51:03,438](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-12 19:51:03,444](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 19:51:03,444](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:51:03] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-12 19:51:03,446](INFO)scriptstool : start to check script status,script_name:ABtest env:Intranet
-[2016-12-12 19:51:03,447](INFO)scriptstool : get ABtest status in 2, status is Intranet
-[2016-12-12 19:51:03,447](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:51:03] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-12 19:51:04,211](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:51:04] "POST /get_result_page HTTP/1.1" 500 -
-[2016-12-12 19:51:08,835](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 19:51:08,838](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 19:51:08,840](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 19:51:08,875](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 19:51:08,880](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 19:51:08,880](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 19:51:08,898](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 19:51:09,077](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 19:51:09,108](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 19:51:09,113](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 19:51:09,212](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 19:51:09,218](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-12 19:51:09,225](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 19:51:09,225](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 19:51:09,227](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 19:51:09,229](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 19:51:09,238](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 19:51:09,242](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 19:51:09,242](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 19:51:09,256](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 19:51:09,411](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 19:51:09,428](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 19:51:09,474](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 19:51:09,560](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 19:51:09,565](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-12 19:51:09,571](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 19:51:09,571](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:51:09] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-12 19:51:09,573](INFO)scriptstool : start to check script status,script_name:ABtest env:Intranet
-[2016-12-12 19:51:09,574](INFO)scriptstool : get ABtest status in 2, status is Intranet
-[2016-12-12 19:51:09,574](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:51:09] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-12 19:51:10,092](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:51:10] "POST /get_result_page HTTP/1.1" 500 -
-[2016-12-12 19:51:16,492](INFO)werkzeug :  * Detected change in '/Users/martin/code/python/scrpit/script_tools/Connector.py', reloading
-[2016-12-12 19:51:16,526](INFO)werkzeug :  * Restarting with stat
-[2016-12-12 19:51:16,909](WARNING)werkzeug :  * Debugger is active!
-[2016-12-12 19:51:16,925](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-12 19:51:18,038](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:51:18] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-12 19:51:18,198](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:51:18] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-12 19:51:19,443](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:51:19] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 19:56:32,098](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 19:56:32,101](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 19:56:32,104](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 19:56:32,124](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 19:56:32,128](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 19:56:32,128](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 19:56:32,144](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 19:56:32,292](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 19:56:32,308](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 19:56:32,346](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 19:56:32,424](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 19:56:32,437](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-12 19:56:32,442](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 19:56:32,442](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-12 19:56:32,444](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 19:56:32,445](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-12 19:56:32,454](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-12 19:56:32,457](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 19:56:32,457](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 19:56:32,471](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-12 19:56:32,649](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-12 19:56:32,662](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-12 19:56:32,669](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-12 19:56:32,716](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-12 19:56:32,723](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-12 19:56:32,728](INFO)scriptstool : set ABtest status to 2
-[2016-12-12 19:56:32,729](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:56:32] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-12 19:56:32,730](INFO)scriptstool : start to check script status,script_name:ABtest env:Intranet
-[2016-12-12 19:56:32,732](INFO)scriptstool : get ABtest status in 2, status is Intranet
-[2016-12-12 19:56:32,732](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:56:32] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-12 19:56:34,644](INFO)scriptstool : start to run script: script_name is ABtest, env is Outside
-[2016-12-12 19:56:34,645](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 19:56:34,649](INFO)scriptstool : start to execute_cmd env:Outside,script_name:ABtest
-[2016-12-12 19:56:34,728](INFO)scriptstool : {'username': u'yangle.zheng', 'environment': u'\u5916\u6d4b', 'password': u'yangle.zheng!2345678', 'hostname': u'192.168.2.222', 'port': 22}
-[2016-12-12 19:56:34,734](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 19:56:34,734](INFO)scriptstool : connect info host:192.168.2.222 username:yangle.zheng password:yangle.zheng!2345678 port:22 execmd:php /usr/local/webdata/fun/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 19:57:49,854](INFO)scriptstool : set ABtest status to 3
-[2016-12-12 19:57:49,854](INFO)scriptstool : start to run script: script_name is ABtest, env is Outside
-[2016-12-12 19:57:49,856](INFO)scriptstool : set ABtest status to 1
-[2016-12-12 19:57:49,857](INFO)scriptstool : start to execute_cmd env:Outside,script_name:ABtest
-[2016-12-12 19:57:49,899](INFO)scriptstool : {'username': u'yangle.zheng', 'environment': u'\u5916\u6d4b', 'password': u'yangle.zheng!2345678', 'hostname': u'192.168.2.222', 'port': 22}
-[2016-12-12 19:57:49,905](INFO)scriptstool : start connect to SSHClient
-[2016-12-12 19:57:49,905](INFO)scriptstool : connect info host:192.168.2.222 username:yangle.zheng password:yangle.zheng!2345678 port:22 execmd:php /usr/local/webdata/fun/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-12 19:59:04,975](INFO)scriptstool : set ABtest status to 3
-[2016-12-12 19:59:04,976](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:59:04] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-12 19:59:04,977](INFO)scriptstool : start to check script status,script_name:ABtest env:Outside
-[2016-12-12 19:59:04,978](INFO)scriptstool : get ABtest status in 3, status is Outside
-[2016-12-12 19:59:04,979](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:59:04] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-12 19:59:04,983](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:59:04] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 19:59:04,987](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:59:04] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-12 19:59:04,989](INFO)werkzeug : 127.0.0.1 - - [12/Dec/2016 19:59:04] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-13 09:35:42,696](INFO)werkzeug :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-[2016-12-13 09:35:42,702](INFO)werkzeug :  * Restarting with stat
-[2016-12-13 09:35:43,015](WARNING)werkzeug :  * Debugger is active!
-[2016-12-13 09:35:43,032](INFO)werkzeug :  * Debugger pin code: 843-477-760
-[2016-12-13 09:35:45,079](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET / HTTP/1.1" 200 -
-[2016-12-13 09:35:45,127](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/css/bootstrap.min.css HTTP/1.1" 304 -
-[2016-12-13 09:35:45,130](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/css/font-awesome.min.css HTTP/1.1" 304 -
-[2016-12-13 09:35:45,134](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/css/ace-rtl.min.css HTTP/1.1" 304 -
-[2016-12-13 09:35:45,136](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/css/ace.min.css HTTP/1.1" 304 -
-[2016-12-13 09:35:45,139](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/css/ace-skins.min.css HTTP/1.1" 304 -
-[2016-12-13 09:35:45,144](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/js/ace-extra.min.js HTTP/1.1" 304 -
-[2016-12-13 09:35:45,157](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/js/bootstrap.min.js HTTP/1.1" 304 -
-[2016-12-13 09:35:45,166](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/js/typeahead-bs2.min.js HTTP/1.1" 304 -
-[2016-12-13 09:35:45,176](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/js/ace-elements.min.js HTTP/1.1" 304 -
-[2016-12-13 09:35:45,181](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/js/ace.min.js HTTP/1.1" 304 -
-[2016-12-13 09:35:45,193](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/avatars/avatar.png HTTP/1.1" 304 -
-[2016-12-13 09:35:45,195](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/avatars/avatar3.png HTTP/1.1" 304 -
-[2016-12-13 09:35:45,198](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/avatars/avatar4.png HTTP/1.1" 304 -
-[2016-12-13 09:35:45,201](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/avatars/user.jpg HTTP/1.1" 304 -
-[2016-12-13 09:35:45,230](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:45] "GET /static/assets1/font/fontawesome-webfont.woff?v=3.2.1 HTTP/1.1" 304 -
-[2016-12-13 09:35:46,942](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:46] "GET /static/html/phpscripts.html HTTP/1.1" 200 -
-[2016-12-13 09:35:46,956](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:46] "GET /static/js/index.js HTTP/1.1" 304 -
-[2016-12-13 09:35:46,983](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:46] "GET /static/assets1/js/jquery.dataTables.min.js HTTP/1.1" 304 -
-[2016-12-13 09:35:46,985](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:46] "GET /static/assets1/js/jquery.dataTables.bootstrap.js HTTP/1.1" 304 -
-[2016-12-13 09:35:47,148](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:47] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-13 09:35:50,395](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-13 09:35:50,397](INFO)scriptstool : set ABtest status to 1
-[2016-12-13 09:35:50,403](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-13 09:35:50,416](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-13 09:35:50,424](INFO)scriptstool : start connect to SSHClient
-[2016-12-13 09:35:50,424](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-13 09:35:50,449](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-13 09:35:50,633](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-13 09:35:50,646](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-13 09:35:50,655](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-13 09:35:50,737](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-13 09:35:50,744](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-13 09:35:50,749](INFO)scriptstool : set ABtest status to 2
-[2016-12-13 09:35:50,750](INFO)scriptstool : start to run script: script_name is ABtest, env is Intranet
-[2016-12-13 09:35:50,751](INFO)scriptstool : set ABtest status to 1
-[2016-12-13 09:35:50,752](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:ABtest
-[2016-12-13 09:35:50,761](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
-[2016-12-13 09:35:50,765](INFO)scriptstool : start connect to SSHClient
-[2016-12-13 09:35:50,765](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-13 09:35:50,782](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
-[2016-12-13 09:35:50,942](INFO)paramiko.transport : Authentication (publickey) failed.
-[2016-12-13 09:35:50,974](INFO)paramiko.transport : Authentication (password) successful!
-[2016-12-13 09:35:51,050](INFO)paramiko.transport : Secsh channel 1 opened.
-[2016-12-13 09:35:51,124](INFO)scriptstool : success connect to SSHClient,start to execute command
-[2016-12-13 09:35:51,133](INFO)scriptstool : result:Could not open input file: /usr/local/webdata/php/fp12/fun/batch/Betatest/cacheAppBetatest.php
-
-[2016-12-13 09:35:51,138](INFO)scriptstool : set ABtest status to 2
-[2016-12-13 09:35:51,139](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:51] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-13 09:35:51,140](INFO)scriptstool : start to check script status,script_name:ABtest env:Intranet
-[2016-12-13 09:35:51,142](INFO)scriptstool : get ABtest status in 2, status is Intranet
-[2016-12-13 09:35:51,142](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:51] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-13 09:35:52,285](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:35:52] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-13 09:38:07,312](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:38:07] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-13 09:38:07,441](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:38:07] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-13 09:38:13,974](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:38:13] "GET /static/html/phpscripts.html HTTP/1.1" 304 -
-[2016-12-13 09:38:14,064](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:38:14] "GET /get_table_info HTTP/1.1" 200 -
-[2016-12-13 09:38:15,028](INFO)scriptstool : start to run script: script_name is Super, env is Intranet
-[2016-12-13 09:38:15,029](INFO)scriptstool : status is running, so skip
-[2016-12-13 09:38:15,029](INFO)scriptstool : start to run script: script_name is Super, env is Intranet
-[2016-12-13 09:38:15,031](INFO)scriptstool : status is running, so skip
-[2016-12-13 09:38:15,031](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:38:15] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-13 09:38:15,033](INFO)scriptstool : start to check script status,script_name:Super env:Intranet
-[2016-12-13 09:38:15,034](INFO)scriptstool : get Super status in 1, status is Intranet
-[2016-12-13 09:38:15,035](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:38:15] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-13 09:38:17,900](INFO)scriptstool : start to run script: script_name is ABtest, env is Outside
-[2016-12-13 09:38:17,901](INFO)scriptstool : set ABtest status to 1
-[2016-12-13 09:38:17,905](INFO)scriptstool : start to execute_cmd env:Outside,script_name:ABtest
-[2016-12-13 09:38:17,944](INFO)scriptstool : {'username': u'yangle.zheng', 'environment': u'\u5916\u6d4b', 'password': u'yangle.zheng!2345678', 'hostname': u'192.168.2.222', 'port': 22}
-[2016-12-13 09:38:17,949](INFO)scriptstool : start connect to SSHClient
-[2016-12-13 09:38:17,949](INFO)scriptstool : connect info host:192.168.2.222 username:yangle.zheng password:yangle.zheng!2345678 port:22 execmd:php /usr/local/webdata/fun/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-13 09:39:33,144](INFO)scriptstool : set ABtest status to 3
-[2016-12-13 09:39:33,144](INFO)scriptstool : start to run script: script_name is ABtest, env is Outside
-[2016-12-13 09:39:33,145](INFO)scriptstool : set ABtest status to 1
-[2016-12-13 09:39:33,148](INFO)scriptstool : start to execute_cmd env:Outside,script_name:ABtest
-[2016-12-13 09:39:33,185](INFO)scriptstool : {'username': u'yangle.zheng', 'environment': u'\u5916\u6d4b', 'password': u'yangle.zheng!2345678', 'hostname': u'192.168.2.222', 'port': 22}
-[2016-12-13 09:39:33,190](INFO)scriptstool : start connect to SSHClient
-[2016-12-13 09:39:33,190](INFO)scriptstool : connect info host:192.168.2.222 username:yangle.zheng password:yangle.zheng!2345678 port:22 execmd:php /usr/local/webdata/fun/fun/batch/Betatest/cacheAppBetatest.php
-[2016-12-13 09:40:48,553](INFO)scriptstool : set ABtest status to 3
-[2016-12-13 09:40:48,554](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:40:48] "POST /run_scrip HTTP/1.1" 200 -
-[2016-12-13 09:40:48,556](INFO)scriptstool : start to check script status,script_name:ABtest env:Outside
-[2016-12-13 09:40:48,557](INFO)scriptstool : get ABtest status in 3, status is Outside
-[2016-12-13 09:40:48,558](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:40:48] "POST /get_script_status HTTP/1.1" 200 -
-[2016-12-13 09:40:48,562](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:40:48] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-13 09:40:48,566](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:40:48] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-13 09:40:48,570](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:40:48] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-13 09:40:48,574](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:40:48] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-13 09:40:48,578](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:40:48] "POST /get_result_page HTTP/1.1" 200 -
-[2016-12-13 09:40:48,582](INFO)werkzeug : 127.0.0.1 - - [13/Dec/2016 09:40:48] "POST /get_result_page HTTP/1.1" 200 -
+[2016-12-14 13:30:33,042](INFO)scriptstool : set Super status to 2
+[2016-12-14 13:30:33,042](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:30:33] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-14 13:30:33,044](INFO)scriptstool : start to check script status,script_name:Super env:Intranet
+[2016-12-14 13:30:33,045](INFO)scriptstool : get Super status in 2, status is Intranet
+[2016-12-14 13:30:33,045](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:30:33] "POST /get_script_status HTTP/1.1" 200 -
+[2016-12-14 13:30:39,377](INFO)scriptstool : start to run script: script_name is Super, env is Intranet
+[2016-12-14 13:30:39,378](INFO)scriptstool : set Super status to 1
+[2016-12-14 13:30:39,382](INFO)scriptstool : start to execute_cmd env:Intranet,script_name:Super
+[2016-12-14 13:30:39,393](INFO)scriptstool : {'username': u'qa', 'environment': u'\u5185\u6d4b', 'password': u'fanliqa', 'hostname': u'192.168.74.12', 'port': 22}
+[2016-12-14 13:30:39,397](INFO)scriptstool : start connect to SSHClient
+[2016-12-14 13:30:39,397](INFO)scriptstool : connect info host:192.168.74.12 username:qa password:fanliqa port:22 execmd:php /usr/local/webdata/php/fp156/super/Cron/Supercron.php method=readData
+[2016-12-14 13:30:39,426](INFO)paramiko.transport : Connected (version 2.0, client OpenSSH_4.3)
+[2016-12-14 13:30:39,574](INFO)paramiko.transport : Authentication (publickey) failed.
+[2016-12-14 13:30:39,614](INFO)paramiko.transport : Authentication (password) successful!
+[2016-12-14 13:30:39,628](INFO)paramiko.transport : Secsh channel 1 opened.
+[2016-12-14 13:39:31,052](INFO)scriptstool : success connect to SSHClient,start to execute command
+[2016-12-14 13:39:31,165](INFO)scriptstool : result:缓存h5常态入口成功，共0条记录，耗时：0.002.缓存今日上新品牌id列表成功.耗时：1.713.缓存品牌id列表成功.耗时：1.720.-------------开始缓存商品详情-------------------获取场次.耗时：0.001.缓存部分商品详情成功.耗时：3.263.缓存部分商品详情成功.耗时：3.264.缓存部分商品详情成功.耗时：5.419.缓存部分商品详情成功.耗时：5.198.缓存部分商品详情成功.耗时：5.700.缓存部分商品详情成功.耗时：4.692.缓存部分商品详情成功.耗时：3.104.缓存部分商品详情成功.耗时：4.307.缓存部分商品详情成功.耗时：2.733.缓存部分商品详情成功.耗时：3.049.缓存部分商品详情成功.耗时：4.401.缓存部分商品详情成功.耗时：4.243.缓存部分商品详情成功.耗时：3.719.缓存部分商品详情成功.耗时：4.115.缓存部分商品详情成功.耗时：8.693.缓存部分商品详情成功.耗时：5.258.缓存部分商品详情成功.耗时：5.709.缓存部分商品详情成功.耗时：8.026.缓存部分商品详情成功.耗时：3.510.缓存部分商品详情成功.耗时：8.839.缓存部分商品详情成功.耗时：6.784.缓存部分商品详情成功.耗时：3.586.缓存部分商品详情成功.耗时：3.497.缓存部分商品详情成功.耗时：6.015.缓存部分商品详情成功.耗时：5.473.缓存部分商品详情成功.耗时：5.547.缓存部分商品详情成功.耗时：5.077.缓存部分商品详情成功.耗时：8.252.缓存部分商品详情成功.耗时：4.120.缓存部分商品详情成功.耗时：3.074.缓存部分商品详情成功.耗时：5.736.缓存部分商品详情成功.耗时：37.784.缓存部分商品详情成功.耗时：2.418.缓存部分商品详情成功.耗时：4.454.缓存部分商品详情成功.耗时：3.358.缓存部分商品详情成功.耗时：2.523.缓存部分商品详情成功.耗时：3.251.缓存部分商品详情成功.耗时：2.618.缓存部分商品详情成功.耗时：2.609.缓存部分商品详情成功.耗时：5.566.缓存部分商品详情成功.耗时：2.954.缓存部分商品详情成功.耗时：3.886.缓存部分商品详情成功.耗时：3.664.缓存部分商品详情成功.耗时：3.039.缓存部分商品详情成功.耗时：6.241.缓存部分商品详情成功.耗时：3.389.缓存部分商品详情成功.耗时：4.533.缓存部分商品详情成功.耗时：5.318.缓存部分商品详情成功.耗时：5.257.缓存部分商品详情成功.耗时：4.782.缓存部分商品详情成功.耗时：3.416.缓存部分商品详情成功.耗时：4.027.缓存部分商品详情成功.耗时：3.715.缓存部分商品详情成功.耗时：2.907.缓存部分商品详情成功.耗时：2.393.缓存部分商品详情成功.耗时：6.214.缓存部分商品详情成功.耗时：4.445.缓存部分商品详情成功.耗时：2.143.缓存部分商品详情成功.耗时：4.948.缓存部分商品详情成功.耗时：4.509.缓存部分商品详情成功.耗时：3.604.缓存部分商品详情成功.耗时：2.302.缓存部分商品详情成功.耗时：2.805.缓存部分商品详情成功.耗时：3.469.缓存部分商品详情成功.耗时：3.927.缓存部分商品详情成功.耗时：4.337.缓存部分商品详情成功.耗时：3.843.缓存部分商品详情成功.耗时：3.875.缓存部分商品详情成功.耗时：2.760.缓存部分商品详情成功.耗时：3.347.缓存部分商品详情成功.耗时：3.257.缓存部分商品详情成功.耗时：4.761.缓存部分商品详情成功.耗时：3.788.缓存部分商品详情成功.耗时：3.087.缓存部分商品详情成功.耗时：2.420.缓存部分商品详情成功.耗时：3.531.缓存部分商品详情成功.耗时：3.024.缓存部分商品详情成功.耗时：3.294.缓存部分商品详情成功.耗时：3.427.缓存部分商品详情成功.耗时：2.265.缓存部分商品详情成功.耗时：2.950.缓存部分商品详情成功.耗时：2.691.缓存部分商品详情成功.耗时：3.606.缓存部分商品详情成功.耗时：1.806.缓存部分商品详情成功.耗时：2.581.缓存部分商品详情成功.耗时：4.043.缓存部分商品详情成功.耗时：1.985.缓存部分商品详情成功.耗时：3.836.缓存部分商品详情成功.耗时：2.664.缓存部分商品详情成功.耗时：4.974.缓存部分商品详情成功.耗时：5.165.缓存部分商品详情成功.耗时：3.572.缓存部分商品详情成功.耗时：2.913.缓存部分商品详情成功.耗时：2.196.缓存部分商品详情成功.耗时：3.080.缓存部分商品详情成功.耗时：4.227.缓存部分商品详情成功.耗时：3.884.缓存部分商品详情成功.耗时：3.178.缓存部分商品详情成功.耗时：2.963.缓存部分商品详情成功.耗时：7.682.缓存部分商品详情成功.耗时：3.225.缓存部分商品详情成功.耗时：3.400.缓存部分商品详情成功.耗时：3.576.缓存部分商品详情成功.耗时：3.807.缓存部分商品详情成功.耗时：3.235.缓存部分商品详情成功.耗时：3.075.缓存部分商品详情成功.耗时：3.392.缓存部分商品详情成功.耗时：3.569.缓存部分商品详情成功.耗时：4.915.缓存部分商品详情成功.耗时：3.742.缓存部分商品详情成功.耗时：3.735.缓存部分商品详情成功.耗时：3.600.缓存部分商品详情成功.耗时：4.125.缓存部分商品详情成功.耗时：4.033.缓存部分商品详情成功.耗时：5.719.缓存部分商品详情成功.耗时：6.549.缓存部分商品详情成功.耗时：4.079.缓存部分商品详情成功.耗时：3.686.缓存部分商品详情成功.耗时：4.913.缓存部分商品详情成功.耗时：6.161.缓存部分商品详情成功.耗时：3.307.缓存商品详情成功.总耗时：523.753.-------------结束缓存商品详情-------------------缓存爆款商品ID成功.耗时：0.060.缓存商品分页id成功.耗时：0.796.缓存微信专享品牌成功，共0个品牌，耗时：0.031.缓存分类成功.耗时：0.139.缓存前端分类成功.耗时：0.139.缓存品牌最大牌id列表成功.耗时：0.022.缓存分类成功，耗时：3.827.缓存在线的返利网商城 ok.缓存属性成功，耗时：0.013.缓存分类的属性成功，耗时：-0.000.success.总耗时：531.309.
+[2016-12-14 13:39:31,172](INFO)scriptstool : data 当前执行的环境为: 内测<br>执行的脚本为: Supercron.php method=readData<br>当前执行的机器为:fp156<br>脚本名称: 超级返所有数据脚本readData<br>执行的结果为: 缓存h5常态入口成功，共0条记录，耗时：0.002.缓存今日上新品牌id列表成功.耗时：1.713.缓存品牌id列表成功.耗时：1.720.-------------开始缓存商品详情-------------------获取场次.耗时：0.001.缓存部分商品详情成功.耗时：3.263.缓存部分商品详情成功.耗时：3.264.缓存部分商品详情成功.耗时：5.419.缓存部分商品详情成功.耗时：5.198.缓存部分商品详情成功.耗时：5.700.缓存部分商品详情成功.耗时：4.692.缓存部分商品详情成功.耗时：3.104.缓存部分商品详情成功.耗时：4.307.缓存部分商品详情成功.耗时：2.733.缓存部分商品详情成功.耗时：3.049.缓存部分商品详情成功.耗时：4.401.缓存部分商品详情成功.耗时：4.243.缓存部分商品详情成功.耗时：3.719.缓存部分商品详情成功.耗时：4.115.缓存部分商品详情成功.耗时：8.693.缓存部分商品详情成功.耗时：5.258.缓存部分商品详情成功.耗时：5.709.缓存部分商品详情成功.耗时：8.026.缓存部分商品详情成功.耗时：3.510.缓存部分商品详情成功.耗时：8.839.缓存部分商品详情成功.耗时：6.784.缓存部分商品详情成功.耗时：3.586.缓存部分商品详情成功.耗时：3.497.缓存部分商品详情成功.耗时：6.015.缓存部分商品详情成功.耗时：5.473.缓存部分商品详情成功.耗时：5.547.缓存部分商品详情成功.耗时：5.077.缓存部分商品详情成功.耗时：8.252.缓存部分商品详情成功.耗时：4.120.缓存部分商品详情成功.耗时：3.074.缓存部分商品详情成功.耗时：5.736.缓存部分商品详情成功.耗时：37.784.缓存部分商品详情成功.耗时：2.418.缓存部分商品详情成功.耗时：4.454.缓存部分商品详情成功.耗时：3.358.缓存部分商品详情成功.耗时：2.523.缓存部分商品详情成功.耗时：3.251.缓存部分商品详情成功.耗时：2.618.缓存部分商品详情成功.耗时：2.609.缓存部分商品详情成功.耗时：5.566.缓存部分商品详情成功.耗时：2.954.缓存部分商品详情成功.耗时：3.886.缓存部分商品详情成功.耗时：3.664.缓存部分商品详情成功.耗时：3.039.缓存部分商品详情成功.耗时：6.241.缓存部分商品详情成功.耗时：3.389.缓存部分商品详情成功.耗时：4.533.缓存部分商品详情成功.耗时：5.318.缓存部分商品详情成功.耗时：5.257.缓存部分商品详情成功.耗时：4.782.缓存部分商品详情成功.耗时：3.416.缓存部分商品详情成功.耗时：4.027.缓存部分商品详情成功.耗时：3.715.缓存部分商品详情成功.耗时：2.907.缓存部分商品详情成功.耗时：2.393.缓存部分商品详情成功.耗时：6.214.缓存部分商品详情成功.耗时：4.445.缓存部分商品详情成功.耗时：2.143.缓存部分商品详情成功.耗时：4.948.缓存部分商品详情成功.耗时：4.509.缓存部分商品详情成功.耗时：3.604.缓存部分商品详情成功.耗时：2.302.缓存部分商品详情成功.耗时：2.805.缓存部分商品详情成功.耗时：3.469.缓存部分商品详情成功.耗时：3.927.缓存部分商品详情成功.耗时：4.337.缓存部分商品详情成功.耗时：3.843.缓存部分商品详情成功.耗时：3.875.缓存部分商品详情成功.耗时：2.760.缓存部分商品详情成功.耗时：3.347.缓存部分商品详情成功.耗时：3.257.缓存部分商品详情成功.耗时：4.761.缓存部分商品详情成功.耗时：3.788.缓存部分商品详情成功.耗时：3.087.缓存部分商品详情成功.耗时：2.420.缓存部分商品详情成功.耗时：3.531.缓存部分商品详情成功.耗时：3.024.缓存部分商品详情成功.耗时：3.294.缓存部分商品详情成功.耗时：3.427.缓存部分商品详情成功.耗时：2.265.缓存部分商品详情成功.耗时：2.950.缓存部分商品详情成功.耗时：2.691.缓存部分商品详情成功.耗时：3.606.缓存部分商品详情成功.耗时：1.806.缓存部分商品详情成功.耗时：2.581.缓存部分商品详情成功.耗时：4.043.缓存部分商品详情成功.耗时：1.985.缓存部分商品详情成功.耗时：3.836.缓存部分商品详情成功.耗时：2.664.缓存部分商品详情成功.耗时：4.974.缓存部分商品详情成功.耗时：5.165.缓存部分商品详情成功.耗时：3.572.缓存部分商品详情成功.耗时：2.913.缓存部分商品详情成功.耗时：2.196.缓存部分商品详情成功.耗时：3.080.缓存部分商品详情成功.耗时：4.227.缓存部分商品详情成功.耗时：3.884.缓存部分商品详情成功.耗时：3.178.缓存部分商品详情成功.耗时：2.963.缓存部分商品详情成功.耗时：7.682.缓存部分商品详情成功.耗时：3.225.缓存部分商品详情成功.耗时：3.400.缓存部分商品详情成功.耗时：3.576.缓存部分商品详情成功.耗时：3.807.缓存部分商品详情成功.耗时：3.235.缓存部分商品详情成功.耗时：3.075.缓存部分商品详情成功.耗时：3.392.缓存部分商品详情成功.耗时：3.569.缓存部分商品详情成功.耗时：4.915.缓存部分商品详情成功.耗时：3.742.缓存部分商品详情成功.耗时：3.735.缓存部分商品详情成功.耗时：3.600.缓存部分商品详情成功.耗时：4.125.缓存部分商品详情成功.耗时：4.033.缓存部分商品详情成功.耗时：5.719.缓存部分商品详情成功.耗时：6.549.缓存部分商品详情成功.耗时：4.079.缓存部分商品详情成功.耗时：3.686.缓存部分商品详情成功.耗时：4.913.缓存部分商品详情成功.耗时：6.161.缓存部分商品详情成功.耗时：3.307.缓存商品详情成功.总耗时：523.753.-------------结束缓存商品详情-------------------缓存爆款商品ID成功.耗时：0.060.缓存商品分页id成功.耗时：0.796.缓存微信专享品牌成功，共0个品牌，耗时：0.031.缓存分类成功.耗时：0.139.缓存前端分类成功.耗时：0.139.缓存品牌最大牌id列表成功.耗时：0.022.缓存分类成功，耗时：3.827.缓存在线的返利网商城 ok.缓存属性成功，耗时：0.013.缓存分类的属性成功，耗时：-0.000.success.总耗时：531.309.
+[2016-12-14 13:39:31,174](INFO)scriptstool : set Super status to 2
+[2016-12-14 13:39:31,175](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:39:31] "POST /run_scrip HTTP/1.1" 200 -
+[2016-12-14 13:39:31,176](INFO)scriptstool : start to check script status,script_name:Super env:Intranet
+[2016-12-14 13:39:31,177](INFO)scriptstool : get Super status in 2, status is Intranet
+[2016-12-14 13:39:31,178](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:39:31] "POST /get_script_status HTTP/1.1" 200 -
+[2016-12-14 13:39:31,184](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:39:31] "POST /get_result_page HTTP/1.1" 200 -
+[2016-12-14 13:39:31,189](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:39:31] "POST /get_result_page HTTP/1.1" 200 -
+[2016-12-14 13:39:31,191](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:39:31] "GET / HTTP/1.1" 200 -
+[2016-12-14 13:39:31,298](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:39:31] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-14 13:42:46,343](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:42:46] "GET / HTTP/1.1" 200 -
+[2016-12-14 13:42:46,465](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:42:46] "GET /get_table_info HTTP/1.1" 200 -
+[2016-12-14 13:54:40,867](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:54:40] "GET / HTTP/1.1" 200 -
+[2016-12-14 13:54:41,806](INFO)werkzeug : 127.0.0.1 - - [14/Dec/2016 13:54:41] "GET /get_table_info HTTP/1.1" 200 -
