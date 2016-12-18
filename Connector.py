@@ -30,6 +30,7 @@ class Connctor:
     def run_script(self, fp, env, script_name):
         self.logger.info("start to run script: script_name is {}, env is {}".format(script_name, env))
         status = self.dao().get_status(script_name)
+        self.check_condition(script_name)
         if status != 1:
             status = 1
             self.logger.info("set {} status to {}".format(script_name,status))
@@ -44,25 +45,29 @@ class Connctor:
                 self.dao().update_script_status(script_name,status)
                 self.logger.info("set {} status to {}".format(script_name,status))
                 print Exception, ":", e
+
         else:
             self.logger.info("status is running, so skip")
             return status
 
-    # 创建sshclient连接服务器,执行命令
+    def check_condition(self, script_name):
+        if self.get_difftime(script_name) > 5:
+            status = 2
+
+        # 创建sshclient连接服务器,执行命令
     def execute_cmd(self, env, fp, script_name):
         self.logger.info("start to execute_cmd env:{},script_name:{}".format(env, script_name))
         # 获取环境信息
         self.get_conn_info(env)
         conn_info = self.conn_info
         execmd = self.splice_cmd(env, script_name, fp)
-
+        script_id = dao().get_script_info(script_name).id
+        createtime = time.time()
+        dao().update_reslut_createtime(script_id, createtime)
         # 检查是否能连通
         ping_result = self.check_ping(conn_info["hostname"])
         if isinstance(ping_result, int):
             self.logger.info(conn_info)
-            script_id = dao().get_script_info(script_name).id
-            createtime = time.time()
-            dao().update_reslut_createtime(script_id, createtime)
             self.tool().encode_fac(conn_info)
             self.result = self.create_client(conn_info["hostname"], conn_info["port"], conn_info["username"],
                                              conn_info["password"], execmd)
@@ -199,10 +204,14 @@ class Connctor:
         for index in range(script_data.__len__()):
             item = {}
             tem = script_data[index].get_all()
-            item["ScriptName"] = tem["short_name"]
+            print tem
+            item["ScriptName"] = tem["script_name"]
             item["ScriptInfo"] = tem["script_info"]
             item["ScriptStatus"] = self.change_status_to_chinese(tem["script_status"])
             item["scriptdetail"] = tem["script_detail"]
+            item["script_content_n"] = tem["script_content_n"].replace("php /usr/local/webdata/php/{}/","")
+            item["script_content_o"] = tem["script_content_o"].replace("php /usr/local/webdata/","")
+
             table_info.append(tool().encode_fac(item))
 
         return table_info
@@ -270,7 +279,7 @@ class Connctor:
         print item["data"]
         tem =self.get_script_info_by_name(script_name)
         result_data["script_name"] = tem["info"]
-        result_data["last_time"] = self.tool().get_time(float(item["update_time"]))
+        result_data["last_time"] = self.tool().get_time(float(item["create_time"]))
         result_data["status"] = self.change_status_to_chinese(self.dao().get_status(script_name))
         result_data["result"] = item["data"]
         return result_data
@@ -294,6 +303,94 @@ class Connctor:
 
         return item
 
+    def create_php_script(self, script_data):
+        """
+         :param script_data:
+                         {
+                             "script_name":xxxx,
+                             "script_info":xxxx,
+                             "scipt_detail": xxxx,
+                         }
+         :return: hint-> messge:1.脚本名称已存在,请修改后重新输入。 2.添加成功。
+         """
+        script_name_list = self.get_script_name_list()
+        base_path = "php /usr/local/webdata/"
+        script_name = self.tool().get_random_string()
+        if script_name in script_name_list:
+            return "脚本名称已存在,请修改后重新输入。"
+        else:
+
+            data = {}
+            print script_data["script_path"]
+            tem = script_data["script_path"].split("/")
+            data["script_name"] = script_name
+            data["short_name"] = data["script_name"]
+            data["script_detail"] = tem[tem.__len__()-1]
+            data["script_info"] = script_data["script_info"]
+            data["script_status"] = 0
+            data["script_content_n"] = base_path + "php/{}/" + script_data["script_path"]
+            data["script_content_o"] = base_path + script_data["script_path"].split("/")[0]+ "/" + script_data["script_path"]
+            self.dao().create_script(data)
+            return "脚本添加成功"
+
+    def get_script_name_list(self):
+        """
+        :return: script_name_list->["xxx","xxx","xxx"]
+        """
+        list = self.dao().get_all_script_name()
+        name_list = []
+        for tem in list:
+            name_list.append(tem[0])
+        return name_list
+
+    def edit_php_script(self, script_data):
+        """
+        :param script_data:
+                        {
+                            "script_name":xxxx,
+                            "script_info":xxxx,
+                            "script_content_o":xxxx,
+                            "script_content_n":xxxx,
+                            "scipt_detail": xxxx,
+                        }
+        :return: hint-> messge:1.脚本名称已存在,请修改后重新输入。 2.添加成功。
+        """
+        script_name_list = self.get_script_name_list()
+        base_path = "php /usr/local/webdata/"
+        data={}
+
+        tem = script_data["script_content_o"].split("/")
+        data["scipt_detail"] = data["script_detail"] = tem[tem.__len__()-1]
+        data["script_info"] = script_data["script_info"]
+        data["script_content_n"] = base_path+"php/{}/"+ script_data["script_content_n"]
+        data["script_content_o"] = base_path+script_data["script_content_o"]
+        script_id = self.dao().get_script_id(script_data["script_name"])
+        self.dao().update_script(data,script_id)
+        return "脚本修改成功"
+
+    def get_newpage_table(self):
+        table = []
+        item = self.get_table_info()
+        for tem in item:
+            tr ="<tr>" \
+                    "<td style='width:20%'><textarea class='"+tem["ScriptName"]+"_name' disabled='disable type='text' style='width:100%' role='textbox'>"+tem["ScriptInfo"]+"</textarea></td>" \
+                    "<td ><input class='"+tem["ScriptName"]+"_script_content_n' disabled='disabled' type='text' style='width:100%' role='textbox' value="+tem["script_content_n"]+"></td>" \
+                    "<td ><input class='"+tem["ScriptName"]+"_script_content_o' disabled='disabled' type='text'style='width:100%' role='textbox' value="+tem["script_content_o"]+"></td>" \
+                    "<td style='width:10%'><button class="+tem["ScriptName"] + " value='修改'>修改</button></td>" \
+                "</tr>"
+            table.append(tr)
+        table = "\n".join(table)
+        return table
+
+    def get_difftime(self,script_name):
+        now_time = float(time.time())
+        create_time = float(self.dao().get_createtime(script_name))
+        difftime = now_time - create_time
+        print difftime/60
+        return difftime/60
+
+
+
 if __name__ == '__main__':
     conn = Connctor()
-    conn.get_result_data("ABtest")
+    print conn.get_script_name_list()

@@ -25,7 +25,7 @@ class Scripts(Base):
 
     def get_all(self):
         return {"id": self.id,
-                "script_content_0": self.script_content_o,
+                "script_content_o": self.script_content_o,
                 "script_content_n": self.script_content_n,
                 "script_info": self.script_info,
                 "script_name": self.script_name,

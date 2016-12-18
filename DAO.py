@@ -85,9 +85,38 @@ class DAO:
         tem = self.session.query(self.scripts).filter(self.scripts.script_name == script_name).all()[0]
         return tem
 
+    def get_all_script_name(self):
+        """
+        :return: script_name_list
+        """
+        name_list = self.session.query(self.scripts.script_name).all()
+        return name_list
+
+    def create_script(self, data):
+        scripts = self.scripts(script_name=data["script_name"],script_info=data["script_info"],short_name=["short_name"],
+                               script_content_n=data["script_content_n"],script_content_o=data["script_content_o"],
+                               script_detail=data["script_detail"],script_status=data["script_status"])
+        self.session.add(scripts)
+        self.session.commit()
+    def get_script_id(self,scrip_name):
+        script_id = self.session.query(self.scripts.id).filter(self.scripts.script_name == scrip_name).all()
+        return script_id
+
+    def update_script(self, data, id):
+        scripts = {
+                    "script_info":data["script_info"],
+                    "script_content_n":data["script_content_n"],
+                    "script_content_o":data["script_content_o"],
+                    "script_detail":data["script_detail"]
+                    }
+        print scripts
+        print id
+        self.session.query(self.scripts).filter(self.scripts.id == id[0][0]).update(scripts)
+        self.session.commit()
+
 
 if __name__ == '__main__':
     dao = DAO()
     # for i in range(dao.get_all_script_info().__len__()):
     # print dao.tool.encode_fac(dao.get_all_script_info()[i].get_all())
-    print dao.update_script_status("ABtest", "Outside", 1)
+    print dao.get_all_script_name()

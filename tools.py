@@ -1,5 +1,7 @@
 #!/usr/bin/python
 # coding: utf-8
+import random
+import string
 import time
 
 __author__ = 'martin'
@@ -49,3 +51,6 @@ class Tools:
         timeArray = time.localtime(timeStamp)
         otherStyleTime = time.strftime("%Y-%m-%d %H:%M:%S", timeArray)
         return otherStyleTime
+
+    def get_random_string(self):
+        return string.join(random.sample(['z','y','x','w','v','u','t','s','r','q','p','o','n','m','l','k','j','i','h','g','f','e','d','c','b','a'], 8)).replace(' ','')

@@ -50,5 +50,39 @@ def get_result_page():
     script_name = request.form.get("script_name")
     result = connector.get_result_page(script_name)
     return result
+
+@app.route("/create_scirpt", methods=['POST'])
+def create_scirpt():
+    script_info = request.form.get("script_info")
+    script_path = request.form.get("script_path")
+    script_data = {
+        "script_info": script_info,
+        "script_path": script_path
+    }
+    print script_data
+    hint = connector.create_php_script(script_data)
+    print hint
+    return hint
+
+@app.route("/edit_scirpt", methods=['POST'])
+def edit_scirpt():
+    script_name = request.form.get("script_name")
+    script_info = request.form.get("script_info")
+    script_content_n = request.form.get("script_content_n")
+    script_content_o = request.form.get("script_content_o")
+    script_data = {
+        "script_name": script_name,
+        "script_info": script_info,
+        "script_content_o": script_content_o,
+        "script_content_n": script_content_n,
+    }
+    hint = connector.edit_php_script(script_data)
+    return hint
+
+@app.route("/get_newpage_info", methods=['GET'])
+def get_newpage_info():
+    html = connector.get_newpage_table()
+    return html
+
 if __name__ == '__main__':
     app.run(debug=True, host='127.0.0.1', port=5000)
