@@ -30,7 +30,7 @@ class Connctor:
     def run_script(self, fp, env, script_name):
         self.logger.info("start to run script: script_name is {}, env is {}".format(script_name, env))
         status = self.dao().get_status(script_name)
-        self.check_condition(script_name)
+        status = self.check_condition(status,script_name)
         if status != 1:
             status = 1
             self.logger.info("set {} status to {}".format(script_name,status))
@@ -50,10 +50,11 @@ class Connctor:
             self.logger.info("status is running, so skip")
             return status
 
-    def check_condition(self, script_name):
+    def check_condition(self, status,script_name):
+        print type(self.get_difftime(script_name))
         if self.get_difftime(script_name) > 5:
             status = 2
-
+        return status
         # 创建sshclient连接服务器,执行命令
     def execute_cmd(self, env, fp, script_name):
         self.logger.info("start to execute_cmd env:{},script_name:{}".format(env, script_name))
@@ -107,11 +108,11 @@ class Connctor:
 
     # 拼接command
     def splice_cmd(self, env, script_name, fp):
-        if env =="Intranet":
-            execmd = dao().get_script_info(script_name).script_content_n
-        elif env == "Outside":
+        global execmd
+        if env == "Outside":
             execmd = dao().get_script_info(script_name).script_content_o
-        if env == "Intranet":
+        elif env == "Intranet":
+            execmd = dao().get_script_info(script_name).script_content_n
             execmd = execmd.format(fp)
             if script_name is "ABtest":
                 execmd = "{}{}{}".format(
@@ -373,7 +374,7 @@ class Connctor:
         item = self.get_table_info()
         for tem in item:
             tr ="<tr>" \
-                    "<td style='width:20%'><textarea class='"+tem["ScriptName"]+"_name' disabled='disable type='text' style='width:100%' role='textbox'>"+tem["ScriptInfo"]+"</textarea></td>" \
+                    "<td style='width:20%'><input class='"+tem["ScriptName"]+"_name' disabled='disable type='text' style='width:100%' role='textbox'value="+tem["ScriptInfo"]+"></td>" \
                     "<td ><input class='"+tem["ScriptName"]+"_script_content_n' disabled='disabled' type='text' style='width:100%' role='textbox' value="+tem["script_content_n"]+"></td>" \
                     "<td ><input class='"+tem["ScriptName"]+"_script_content_o' disabled='disabled' type='text'style='width:100%' role='textbox' value="+tem["script_content_o"]+"></td>" \
                     "<td style='width:10%'><button class="+tem["ScriptName"] + " value='修改'>修改</button></td>" \
@@ -389,8 +390,13 @@ class Connctor:
         print difftime/60
         return difftime/60
 
-
+    def get_search(self,name,page):
+        if page == "php_script":
+            table = self.get_html_table(name,"edit")
+        elif page == "new_script":
+            table = self.get_newpage_table(name,"edit")
+        return table
 
 if __name__ == '__main__':
     conn = Connctor()
-    print conn.get_script_name_list()
+    print conn.get_difftime("ABtest") > 5

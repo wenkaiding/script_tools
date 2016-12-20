@@ -114,9 +114,14 @@ class DAO:
         self.session.query(self.scripts).filter(self.scripts.id == id[0][0]).update(scripts)
         self.session.commit()
 
+    def search(self,name):
+        name = self.session.query(self.scripts).filter(self.scripts.script_info.like("%"+name+"%")).all()
+        return name
 
 if __name__ == '__main__':
     dao = DAO()
     # for i in range(dao.get_all_script_info().__len__()):
     # print dao.tool.encode_fac(dao.get_all_script_info()[i].get_all())
-    print dao.get_all_script_name()
+    name =  dao.search("级")
+    for item in name:
+        print item.get_all()["script_content_o"]

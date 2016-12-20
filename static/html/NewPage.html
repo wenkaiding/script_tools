@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="utf-8" />
 		<title>STMS</title>
@@ -43,7 +43,6 @@
 		<!--[if lt IE 9]>
 		<script src="../assets/js/html5shiv.js"></script>
 		<script src="../assets/js/respond.min.js"></script>
-		<script type="text/javascript" src="/static/js/index.js"></script>
 
 		<![endif]-->
 	</head>
@@ -115,14 +114,16 @@
 						</div>
 					</div><!-- #sidebar-shortcuts -->
                     <ul class="nav nav-list">
-						<li class="active">
+						<li>
 							<a href="phpscripts.html">
 								<i class="icon-dashboard"></i>
 								<span class="menu-text"> php脚本</span>
 							</a>
+						</li>
+						<li  class="active">
 							<a href="NewPage.html">
 								<i class="icon-edit"></i>
-								<span class="menu-text"> 新增脚本</span>
+								<span class="menu-text"> 脚本管理</span>
 							</a>
 						</li>
 					</ul><!-- /.nav-list -->
@@ -214,21 +215,21 @@
 												</div>
 											</div>
 
-											<div class="modal-body no-padding">
-												<span>脚本名称:</span><input class="script_info_new"><br>
-												<span>脚本路径:</span><input class="script_path_new"><br>
+											<div class="modal-body">
+												<span>脚本名称:</span><input class="script_info_new"><small><span>(如:分流脚本)</span></small><br>
+												<span>脚本路径:</span><input class="script_path_new"><small><span>(如:fun/batch/Betatest/cacheAppBetatest.php)</span></small><br>
 											</div>
 
-											<div class="modal-footer no-margin-top">
-												<button class="btn btn-sm btn-danger pull-left" data-dismiss="modal">
-													<i class="icon-remove"></i>
-													Close
-												</button>
+											<div class="modal-footer no-margin-top"style="
+    											height: 41px;
+    											padding-top: 3px;
+    											padding-bottom: 3px;
+											">
+
 												<button class="btn btn-sm btn-danger pull-right" data-dismiss="modal" id="create_script">
 													<i class="icon-submit"></i>
 													提交
 												</button>
-
 
 											</div>
 										</div><!-- /.modal-content -->
@@ -290,7 +291,7 @@
 
 		<!--[if IE]>
 <script type="text/javascript">
- window.jQuery || document.write("<script src='../../statstatic/assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+ window.jQuery || document.write("<script src='../static/assets/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
 </script>
 <![endif]-->
 
@@ -336,6 +337,5 @@
 				}
 			})
 		</script>
-	<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>

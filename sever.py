@@ -84,5 +84,11 @@ def get_newpage_info():
     html = connector.get_newpage_table()
     return html
 
+@app.route("/search", methods=['POST'])
+def search():
+    name = request.form.get("name")
+    html = connector.get_search(name)
+    return html
+
 if __name__ == '__main__':
-    app.run(debug=True, host='127.0.0.1', port=5000)
+    app.run(debug=True, host='127.0.0.1', port=5001)

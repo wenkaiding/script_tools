@@ -63,12 +63,6 @@ $(document).ready(function (){
         });
 
         }
-        alert(bu);
-
-
-
-
-
     });
 
 });
