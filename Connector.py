@@ -155,7 +155,6 @@ class Connctor:
     # 拼接html table详细信息
     def get_html_table(self,*args):
         table = []
-        print args
         item = self.get_table_info(args)
         last_item = self.get_last_script()
         result_scriptname = self.get_result_scriptname()
@@ -201,7 +200,6 @@ class Connctor:
     # 获取脚本列表的详细信息
     def get_table_info(self,name):
         table_info = []
-        print name
         if name[0] == None:
             script_data = dao().get_all_script_info()
         else:
@@ -387,6 +385,7 @@ class Connctor:
 
     def get_difftime(self,script_name):
         now_time = float(time.time())
+        print self.dao().get_createtime(script_name)
         create_time = float(self.dao().get_createtime(script_name))
         difftime = now_time - create_time
         return difftime/60

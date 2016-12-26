@@ -59,9 +59,7 @@ def create_scirpt():
         "script_info": script_info,
         "script_path": script_path
     }
-    print script_data
     hint = connector.create_php_script(script_data)
-    print hint
     return hint
 
 @app.route("/edit_scirpt", methods=['POST'])
@@ -88,9 +86,8 @@ def get_newpage_info():
 def search():
     name = request.form.get("name")
     page = request.form.get("page")
-    print name
     html = connector.get_search(name,page)
     return html
 
 if __name__ == '__main__':
-    app.run(debug=True, host='127.0.0.1', port=5002)
+    app.run(debug=True, host='127.0.0.1', port=5000)

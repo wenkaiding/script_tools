@@ -53,11 +53,20 @@ class DAO:
         return scripts_all_data
 
     def get_updatetime(self, script_name):
-        updatetime = self.session.query(self.resluts.update_time).filter(self.resluts.scripts_name == script_name).all()[0][0]
+        updatetime = self.session.query(self.resluts.update_time).filter(self.resluts.scripts_name == script_name).all()
+        print updatetime
         return updatetime
 
     def get_createtime(self, script_name):
-        updatetime = self.session.query(self.resluts.create_time).filter(self.resluts.scripts_name == script_name).all()[0][0]
+        tem = self.session.query(self.resluts.create_time).filter(self.resluts.scripts_name == script_name).all()
+        if isinstance(tem,list):
+            if tem.__len__() == 0:
+                updatetime = 0
+            else:
+                updatetime = tem[0][0]
+        else:
+            updatetime = tem
+
         return updatetime
 
     def update_script_status(self, scripname, status):
