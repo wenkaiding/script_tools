@@ -51,7 +51,6 @@ class Connctor:
             return status
 
     def check_condition(self, status,script_name):
-        print type(self.get_difftime(script_name))
         if self.get_difftime(script_name) > 5:
             status = 2
         return status
@@ -154,9 +153,10 @@ class Connctor:
             #     if self.conn is not None: self.conn.close()
 
     # 拼接html table详细信息
-    def get_html_table(self):
+    def get_html_table(self,*args):
         table = []
-        item = self.get_table_info()
+        print args
+        item = self.get_table_info(args)
         last_item = self.get_last_script()
         result_scriptname = self.get_result_scriptname()
         for tem in item:
@@ -199,13 +199,17 @@ class Connctor:
         status = self.change_status_to_chinese(status) +"("+self.change_env_to_chinese(env)+")"
         return status
     # 获取脚本列表的详细信息
-    def get_table_info(self):
+    def get_table_info(self,name):
         table_info = []
-        script_data = dao().get_all_script_info()
+        print name
+        if name[0] == None:
+            script_data = dao().get_all_script_info()
+        else:
+            script_data = dao().search(name[0])
+
         for index in range(script_data.__len__()):
             item = {}
             tem = script_data[index].get_all()
-            print tem
             item["ScriptName"] = tem["script_name"]
             item["ScriptInfo"] = tem["script_info"]
             item["ScriptStatus"] = self.change_status_to_chinese(tem["script_status"])
@@ -214,7 +218,7 @@ class Connctor:
             item["script_content_o"] = tem["script_content_o"].replace("php /usr/local/webdata/","")
 
             table_info.append(tool().encode_fac(item))
-
+        table_info = self.tool().cnsort(table_info)
         return table_info
 
     def change_status_to_chinese(self,status):
@@ -277,7 +281,6 @@ class Connctor:
     def get_result_data(self, script_name):
         result_data = {}
         item = self.dao().get_result_by_script_name(script_name)[0].get_all()
-        print item["data"]
         tem =self.get_script_info_by_name(script_name)
         result_data["script_name"] = tem["info"]
         result_data["last_time"] = self.tool().get_time(float(item["create_time"]))
@@ -322,7 +325,6 @@ class Connctor:
         else:
 
             data = {}
-            print script_data["script_path"]
             tem = script_data["script_path"].split("/")
             data["script_name"] = script_name
             data["short_name"] = data["script_name"]
@@ -369,14 +371,14 @@ class Connctor:
         self.dao().update_script(data,script_id)
         return "脚本修改成功"
 
-    def get_newpage_table(self):
+    def get_newpage_table(self,*args):
         table = []
-        item = self.get_table_info()
+        item = self.get_table_info(args)
         for tem in item:
             tr ="<tr>" \
-                    "<td style='width:20%'><input class='"+tem["ScriptName"]+"_name' disabled='disable type='text' style='width:100%' role='textbox'value="+tem["ScriptInfo"]+"></td>" \
-                    "<td ><input class='"+tem["ScriptName"]+"_script_content_n' disabled='disabled' type='text' style='width:100%' role='textbox' value="+tem["script_content_n"]+"></td>" \
-                    "<td ><input class='"+tem["ScriptName"]+"_script_content_o' disabled='disabled' type='text'style='width:100%' role='textbox' value="+tem["script_content_o"]+"></td>" \
+                    "<td style='width:20%'><input class='"+tem["ScriptName"]+"_name' disabled='disable type='text' style='width:100%' value='"+tem["ScriptInfo"]+"'></td>" \
+                    "<td ><input class='"+tem["ScriptName"]+"_script_content_n' disabled='disabled' type='text' style='width:100%' value='"+tem["script_content_n"]+"'></td>" \
+                    "<td ><input class='"+tem["ScriptName"]+"_script_content_o' disabled='disabled' type='text'style='width:100%' value='"+tem["script_content_o"]+"'></td>" \
                     "<td style='width:10%'><button class="+tem["ScriptName"] + " value='修改'>修改</button></td>" \
                 "</tr>"
             table.append(tr)
@@ -387,16 +389,16 @@ class Connctor:
         now_time = float(time.time())
         create_time = float(self.dao().get_createtime(script_name))
         difftime = now_time - create_time
-        print difftime/60
         return difftime/60
 
     def get_search(self,name,page):
-        if page == "php_script":
-            table = self.get_html_table(name,"edit")
-        elif page == "new_script":
-            table = self.get_newpage_table(name,"edit")
+        table = ""
+        if page == "php_page":
+            table = self.get_html_table(name)
+        elif page == "edit_page":
+            table = self.get_newpage_table(name)
         return table
 
 if __name__ == '__main__':
     conn = Connctor()
-    print conn.get_difftime("ABtest") > 5
+    # print conn.get_table_info()

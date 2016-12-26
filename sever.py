@@ -33,7 +33,7 @@ def run_scrip():
 
 @app.route("/get_table_info", methods=['GET'])
 def get_table_info():
-    html = connector.get_html_table()
+    html = connector.get_html_table(None)
     return html
 
 
@@ -81,14 +81,16 @@ def edit_scirpt():
 
 @app.route("/get_newpage_info", methods=['GET'])
 def get_newpage_info():
-    html = connector.get_newpage_table()
+    html = connector.get_newpage_table(None)
     return html
 
 @app.route("/search", methods=['POST'])
 def search():
     name = request.form.get("name")
-    html = connector.get_search(name)
+    page = request.form.get("page")
+    print name
+    html = connector.get_search(name,page)
     return html
 
 if __name__ == '__main__':
-    app.run(debug=True, host='127.0.0.1', port=5001)
+    app.run(debug=True, host='127.0.0.1', port=5002)

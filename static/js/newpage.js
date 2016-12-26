@@ -64,6 +64,25 @@ $(document).ready(function (){
 
         }
     });
+    $('#search').keydown(function(e){
+        if(e.keyCode==13){
+            var page = "edit_page";
+            var name = $(this).val();
+            var data = {page:page,name:name};
+            $(".tbody").empty();
+            $.ajax({
+                type: "POST",
+                url: "/search",
+                data: data,
+                success:function(result){
+                    $(".tbody").empty();
+                    $(".tbody").append(result)
+
+                }
+            });
+
+        }
+    });
 
 });
 

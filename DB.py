@@ -4,8 +4,9 @@ from sqlalchemy import Column, Integer, String
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
+from sqlalchemy.pool import NullPool
 
-engine = create_engine("mysql+pymysql://root:root@127.0.0.1:3306/scripts?charset=utf8", max_overflow=100)
+engine = create_engine("mysql+pymysql://root:root@127.0.0.1:3306/scripts?charset=utf8",poolclass=NullPool)
 Base = declarative_base()
 
 
