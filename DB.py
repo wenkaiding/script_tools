@@ -6,7 +6,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.pool import NullPool
 
-engine = create_engine("mysql+pymysql://root:root@127.0.0.1:3306/scripts?charset=utf8",poolclass=NullPool)
+engine = create_engine("mysql+pymysql://root:123456@127.0.0.1:3306/scripts?charset=utf8",poolclass=NullPool)
 Base = declarative_base()
 
 

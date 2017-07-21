@@ -21,7 +21,7 @@ class DAO:
 
     def get_script_info(self, script_name):
         ret = self.session.query(self.scripts).filter(self.scripts.script_name == script_name).all()
-        return ret[0]
+	return ret[0]
 
     def create_resluts(self, script_name, script_id, data, env, createtime, updatetime):
         resluts = self.resluts(data=data, scripts_name=script_name, scripts_id=script_id, env=env,
@@ -30,10 +30,11 @@ class DAO:
         tem = []
         update_info = {"data": data, "scripts_name": script_name, "env": env, "create_time": createtime,
                        "update_time": updatetime}
-        for item in ret:
+	for item in ret:
             tem.append(item[0])
         self.tool.encode_fac(tem)
-        if script_id not in tem:
+	
+	if script_id not in tem:
             self.session.add(resluts)
             self.session.commit()
         else:
@@ -86,10 +87,8 @@ class DAO:
         return tem
 
     def get_result_by_script_name(self, script_name):
-        print script_name
         tem = self.session.query(self.resluts).filter(self.resluts.scripts_name == script_name).all()
-        return tem
-
+	return tem
     def get_script_info_by_name(self, script_name):
         tem = self.session.query(self.scripts).filter(self.scripts.script_name == script_name).all()[0]
         return tem

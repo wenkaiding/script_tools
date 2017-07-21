@@ -113,12 +113,13 @@ class Connctor:
         elif env == "Intranet":
             execmd = dao().get_script_info(script_name).script_content_n
             execmd = execmd.format(fp)
-            if script_name is "ABtest":
+            if script_name == "ABtest":
                 execmd = "{}{}{}".format(
                     tool().replace_file("/usr/local/webdata/php/{}/fun/batch/Betatest".format(fp),
                                         "mysql:host=192.168.100.60;",
                                         "mysql:host=192.168.100.78;", "config.php"), "\n", execmd)
-        return execmd
+	self.logger.info("execmd:{}".format(execmd))
+	return execmd
 
     # 创建client
     def create_client(self, hostname, port, username, password, execmd):
@@ -325,7 +326,7 @@ class Connctor:
             data = {}
             tem = script_data["script_path"].split("/")
             data["script_name"] = script_name
-            data["short_name"] = data["script_name"]
+            data["short_name"] = script_name
             data["script_detail"] = tem[tem.__len__()-1]
             data["script_info"] = script_data["script_info"]
             data["script_status"] = 0
@@ -373,13 +374,13 @@ class Connctor:
         table = []
         item = self.get_table_info(args)
         for tem in item:
-            tr ="<tr>" \
-                    "<td style='width:20%'><input class='"+tem["ScriptName"]+"_name' disabled='disable type='text' style='width:100%' value='"+tem["ScriptInfo"]+"'></td>" \
-                    "<td ><input class='"+tem["ScriptName"]+"_script_content_n' disabled='disabled' type='text' style='width:100%' value='"+tem["script_content_n"]+"'></td>" \
-                    "<td ><input class='"+tem["ScriptName"]+"_script_content_o' disabled='disabled' type='text'style='width:100%' value='"+tem["script_content_o"]+"'></td>" \
+        	tr = "<tr>" \
+                    "<td style='width:20%' class='" + tem["ScriptName"] + "_name'  type='text'>" + tem["ScriptInfo"] + "</td>" \
+                    "<td style='width:20%' class='" + tem["ScriptName"] + "_script_content_n'  type='text'>" + tem["script_content_n"] + "</td>" \
+                    "<td style='width:20%' class='" + tem["ScriptName"] + "_script_content_o'  type='text'>" + tem["script_content_o"] + "</td>" \
                     "<td style='width:10%'><button class="+tem["ScriptName"] + " value='修改'>修改</button></td>" \
                 "</tr>"
-            table.append(tr)
+		table.append(tr)
         table = "\n".join(table)
         return table
 
